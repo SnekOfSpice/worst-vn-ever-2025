@@ -1,14 +1,12 @@
 {
 	"editor": {
-		"current_page_number": 0,
+		"current_page_number": 1,
 		"page_view": 0,
 		"text_size_id": 3
 	},
 	"pages": {
 		"default_address_mode_pages": 0,
-		"dropdown_dialog_arguments": [
-			"amber-emotion"
-		],
+		"dropdown_dialog_arguments": [],
 		"dropdown_title_for_dialog_syntax": "character",
 		"dropdown_titles": [
 			"amber-emotion",
@@ -22,7 +20,10 @@
 			],
 			"character": [
 				"narrator",
-				"amber"
+				"zif",
+				"pilot",
+				"sidsel",
+				"accendia"
 			]
 		},
 		"empty_strings_for_l10n": false,
@@ -560,10 +561,13 @@
 						"content": {
 							"active_actors": [
 								"narrator",
-								"amber"
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
 							],
 							"active_actors_title": "character",
-							"content": "[]>narrator: Thank you for downloading DIISIS. You seem to have set it up so it doesn't explode your project. <mp>Good job!\n[]>narrator:In this demo, you will find the fundamentals of DIISIS' functionalities included in the script \"demo_script.json\" so you can get accustomed to how things work.\n[]>amber{amber-emotion|neutral}: Hi! I'm Amber, one of the robotgirls created to anthropomorphize DIISIS.\n[]>narrator:Imagine her, gently watching over you as you work. Like a little guardian robotangel, just for you.\n[]>amber:That I am!\n[]>narrator:What you will see next is a basic demo of choices in DIISIS. You can give any number of options to the player. <mp>For each option, you can attach so-called \"Facts\" to the option.\n[]>narrator:Facts can either be boolean (true or false) or integers (whole numbers). Then you can check against them having some value at a later point. <mp>In this example, we have a fact called \"liked amber\". It is boolean and starts out as false. If you press the first button, it gets set to true.\n[]>narrator: Isn't she cool?"
+							"content": "[]>zif:ayo what's up gamers"
 						},
 						"facts": {
 							"fact_data_by_name": {
@@ -581,276 +585,14 @@
 						"meta.selector": {
 							"selected": false
 						}
-					},
-					{
-						"address": "0.4",
-						"conditionals": {
-							"behavior": 0,
-							"behavior_key": "Show",
-							"facts": {
-								"fact_data_by_name": {
-
-								},
-								"meta.visible": false
-							},
-							"meta.visible": false,
-							"operand": 0,
-							"operand_args": [],
-							"operand_key": "AND"
-						},
-						"content": {
-							"auto_switch": false,
-							"choice_title": "",
-							"choices": [
-								{
-									"address": "0.4.0",
-									"behavior_after_first_selection": 0,
-									"choice_text.disabled": "",
-									"choice_text.enabled": "Yes I love her",
-									"choice_text.enabled_as_default": true,
-									"conditionals": {
-										"behavior": 0,
-										"behavior_key": "Show",
-										"facts": {
-											"fact_data_by_name": {
-
-											},
-											"meta.visible": false
-										},
-										"meta.visible": false,
-										"operand": 0,
-										"operand_args": [],
-										"operand_key": "AND"
-									},
-									"do_jump_page": false,
-									"facts": {
-										"fact_data_by_name": {
-											"liked amber": {
-												"data_type": 0,
-												"fact_name": "liked amber",
-												"fact_value": true,
-												"int_comparator": 0,
-												"int_operator": 0,
-												"is_conditional": false
-											}
-										},
-										"meta.visible": true
-									},
-									"jump_address_mode": 0,
-									"loop_address_mode": 0,
-									"loopback": false,
-									"loopback_target_line": 1,
-									"loopback_target_page": 0,
-									"meta.jump_page_before_auto_switch": false,
-									"meta.selector": {
-										"selected": false
-									},
-									"target_line": 1,
-									"target_page": 0
-								},
-								{
-									"address": "0.4.1",
-									"behavior_after_first_selection": 0,
-									"choice_text.disabled": "",
-									"choice_text.enabled": "No actually, robots are scary",
-									"choice_text.enabled_as_default": true,
-									"conditionals": {
-										"behavior": 0,
-										"behavior_key": "Show",
-										"facts": {
-											"fact_data_by_name": {
-
-											},
-											"meta.visible": false
-										},
-										"meta.visible": false,
-										"operand": 0,
-										"operand_args": [],
-										"operand_key": "AND"
-									},
-									"do_jump_page": false,
-									"facts": {
-										"fact_data_by_name": {
-
-										},
-										"meta.visible": false
-									},
-									"jump_address_mode": 0,
-									"loop_address_mode": 0,
-									"loopback": false,
-									"loopback_target_line": 1,
-									"loopback_target_page": 0,
-									"meta.jump_page_before_auto_switch": false,
-									"meta.selector": {
-										"selected": false
-									},
-									"target_line": 1,
-									"target_page": 0
-								}
-							],
-							"meta.do_jump_page": true
-						},
-						"facts": {
-							"fact_data_by_name": {
-
-							},
-							"meta.visible": false
-						},
-						"header": [],
-						"line_type": 1,
-						"meta.conditionals_visible": false,
-						"meta.facts_visible": false,
-						"meta.indent_level": 0,
-						"meta.is_head_editable": true,
-						"meta.line_index": 4,
-						"meta.selector": {
-							"selected": false
-						}
-					},
-					{
-						"address": "0.5",
-						"conditionals": {
-							"behavior": 0,
-							"behavior_key": "Show",
-							"facts": {
-								"fact_data_by_name": {
-									"liked amber": {
-										"data_type": 0,
-										"fact_name": "liked amber",
-										"fact_value": true,
-										"int_comparator": 0,
-										"int_operator": 0,
-										"is_conditional": true
-									}
-								},
-								"meta.visible": true
-							},
-							"meta.visible": true,
-							"operand": 0,
-							"operand_args": [],
-							"operand_key": "AND"
-						},
-						"content": {
-							"active_actors": [
-								"narrator",
-								"amber"
-							],
-							"active_actors_title": "character",
-							"content": "[]>amber{amber-emotion|happy}:I'm really happy to hear that! <mp>I think you're cool too!"
-						},
-						"facts": {
-							"fact_data_by_name": {
-
-							},
-							"meta.visible": false
-						},
-						"header": [],
-						"line_type": 0,
-						"meta.conditionals_visible": true,
-						"meta.facts_visible": false,
-						"meta.indent_level": 0,
-						"meta.is_head_editable": true,
-						"meta.line_index": 5,
-						"meta.selector": {
-							"selected": false
-						}
-					},
-					{
-						"address": "0.6",
-						"conditionals": {
-							"behavior": 0,
-							"behavior_key": "Show",
-							"facts": {
-								"fact_data_by_name": {
-									"liked amber": {
-										"data_type": 0,
-										"fact_name": "liked amber",
-										"fact_value": false,
-										"int_comparator": 0,
-										"int_operator": 0,
-										"is_conditional": true
-									}
-								},
-								"meta.visible": true
-							},
-							"meta.visible": true,
-							"operand": 0,
-							"operand_args": [],
-							"operand_key": "AND"
-						},
-						"content": {
-							"active_actors": [
-								"narrator",
-								"amber"
-							],
-							"active_actors_title": "character",
-							"content": "[]>amber{amber-emotion|sad}:I promise I'm not scary!"
-						},
-						"facts": {
-							"fact_data_by_name": {
-
-							},
-							"meta.visible": false
-						},
-						"header": [],
-						"line_type": 0,
-						"meta.conditionals_visible": true,
-						"meta.facts_visible": false,
-						"meta.indent_level": 0,
-						"meta.is_head_editable": true,
-						"meta.line_index": 6,
-						"meta.selector": {
-							"selected": false
-						}
-					},
-					{
-						"address": "0.7",
-						"conditionals": {
-							"behavior": 0,
-							"behavior_key": "Show",
-							"facts": {
-								"fact_data_by_name": {
-
-								},
-								"meta.visible": false
-							},
-							"meta.visible": false,
-							"operand": 0,
-							"operand_args": [],
-							"operand_key": "AND"
-						},
-						"content": {
-							"active_actors": [
-								"narrator",
-								"amber"
-							],
-							"active_actors_title": "character",
-							"content": "[]>narrator:And then we only show the appropriate line.\n[]>narrator{amber-emotion|neutral}:Choices can also jump to any point in the document upon being picked and have other behavior for more advanced use cases.\n[]>narrator:You can find all of that in the [url=https://github.com/SnekOfSpice/dialog-editor/wiki/Line-Type:-Choice]wiki on GitHub[/url]."
-						},
-						"facts": {
-							"fact_data_by_name": {
-
-							},
-							"meta.visible": false
-						},
-						"header": [],
-						"line_type": 0,
-						"meta.conditionals_visible": false,
-						"meta.facts_visible": false,
-						"meta.indent_level": 0,
-						"meta.is_head_editable": true,
-						"meta.line_index": 7,
-						"meta.selector": {
-							"selected": false
-						}
 					}
 				],
 				"meta.address_mode_next": 0,
-				"meta.scroll_vertical": 42,
+				"meta.scroll_vertical": 0,
 				"meta.selected": false,
 				"next": 1.0,
 				"number": 0,
-				"page_key": "",
+				"page_key": "opening",
 				"terminate": false
 			},
 			"1": {
@@ -864,7 +606,7 @@
 					{
 						"address": "1.0",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -873,14 +615,17 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
 						"content": {
 							"active_actors": [
 								"narrator",
-								"amber"
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
 							],
 							"active_actors_title": "character",
 							"content": "[]>narrator:Diisis uses so-called \"Instructions\" for more complex behavior. Read up on how to implement them on GitHub. The rough gist is that they work like functions in Godot. You give them names and arguments, and can then call them inside DIISIS.\n[]>narrator:For this, there are two approaches: Lines and inline. You can dedicate an entire [url=https://github.com/SnekOfSpice/dialog-editor/wiki/Line-Type:-Instruction]Line[/url] to an Instruction, or use an appropriate [url=https://github.com/SnekOfSpice/dialog-editor/wiki/InlineEvaluator#evaluated-tags]Tag[/url] to call them from inside the text."
@@ -892,12 +637,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 0.0,
+						"line_type": 0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0.0,
+						"meta.line_index": 0,
 						"meta.selector": {
 							"selected": false
 						}
@@ -905,7 +650,7 @@
 					{
 						"address": "1.1",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -914,7 +659,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -939,12 +684,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 2.0,
+						"line_type": 2,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 1.0,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						}
@@ -952,7 +697,7 @@
 					{
 						"address": "1.2",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -961,17 +706,20 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
 						"content": {
 							"active_actors": [
 								"narrator",
-								"amber"
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
 							],
 							"active_actors_title": "character",
-							"content": "[]>narrator:Like so.\n[]>amber: Or <call:shake_camera,40>so :3"
+							"content": "[]>narrator:Like so.\n[]>zif: Or <call:shake_camera,40>so :3"
 						},
 						"facts": {
 							"fact_data_by_name": {
@@ -980,12 +728,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 0.0,
+						"line_type": 0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 2.0,
+						"meta.line_index": 2,
 						"meta.selector": {
 							"selected": false
 						}
@@ -993,7 +741,7 @@
 					{
 						"address": "1.3",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -1002,14 +750,17 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
 						"content": {
 							"active_actors": [
 								"narrator",
-								"amber"
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
 							],
 							"active_actors_title": "character",
 							"content": "[]>narrator:This template also comes with CG support. <lc>I will use this to tell you about where I got the music for this demo."
@@ -1021,12 +772,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 0.0,
+						"line_type": 0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 3.0,
+						"meta.line_index": 3,
 						"meta.selector": {
 							"selected": false
 						}
@@ -1034,7 +785,7 @@
 					{
 						"address": "1.4",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -1043,7 +794,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -1070,12 +821,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 2.0,
+						"line_type": 2,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 4.0,
+						"meta.line_index": 4,
 						"meta.selector": {
 							"selected": false
 						}
@@ -1083,7 +834,7 @@
 					{
 						"address": "1.5",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -1092,14 +843,17 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
 						"content": {
 							"active_actors": [
 								"narrator",
-								"amber"
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
 							],
 							"active_actors_title": "character",
 							"content": "[]>narrator:Loyalty Freak Music is anticapitalist and antifascist. <ap>[b]Those are good things.[/b]\n<mp>And the music rocks too. (As you can see in the script, newline characters don't need to be escaped in any capacity.)\n[]>narrator:CGs are fullscreen illustrations that you use to highlight cool scenes in your visual novel. <mp>They are absolutely not [i]necessary[/i] - but can add some nice polish."
@@ -1111,12 +865,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 0.0,
+						"line_type": 0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 5.0,
+						"meta.line_index": 5,
 						"meta.selector": {
 							"selected": false
 						}
@@ -1124,7 +878,7 @@
 					{
 						"address": "1.6",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -1133,14 +887,17 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
 						"content": {
 							"active_actors": [
 								"narrator",
-								"amber"
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
 							],
 							"active_actors_title": "character",
 							"content": "[]>narrator:When this line ends with the next click, the CG will disappear again. <mp>Tada! <call:hide_cg,2>"
@@ -1152,22 +909,22 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 0.0,
+						"line_type": 0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 6.0,
+						"meta.line_index": 6,
 						"meta.selector": {
 							"selected": false
 						}
 					}
 				],
-				"meta.address_mode_next": 0.0,
-				"meta.scroll_vertical": 0.0,
+				"meta.address_mode_next": 0,
+				"meta.scroll_vertical": 0,
 				"meta.selected": false,
 				"next": 2.0,
-				"number": 1.0,
+				"number": 1,
 				"page_key": "",
 				"terminate": false
 			},
@@ -1182,7 +939,7 @@
 					{
 						"address": "2.0",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -1191,17 +948,20 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
 						"content": {
 							"active_actors": [
 								"narrator",
-								"amber"
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
 							],
 							"active_actors_title": "character",
-							"content": "[]>narrator:With that, we can start to wrap up.\n[]>amber:Change of scenery please!"
+							"content": "[]>narrator:With that, we can start to wrap up.\n[]>zif:Change of scenery please!"
 						},
 						"facts": {
 							"fact_data_by_name": {
@@ -1210,12 +970,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 0.0,
+						"line_type": 0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": false,
-						"meta.line_index": 0.0,
+						"meta.line_index": 0,
 						"meta.selector": {
 							"selected": false
 						}
@@ -1223,7 +983,7 @@
 					{
 						"address": "2.1",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -1232,7 +992,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -1258,12 +1018,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 2.0,
+						"line_type": 2,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": false,
-						"meta.line_index": 1.0,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						}
@@ -1271,7 +1031,7 @@
 					{
 						"address": "2.2",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -1280,14 +1040,17 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
 						"content": {
 							"active_actors": [
 								"narrator",
-								"amber"
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
 							],
 							"active_actors_title": "character",
 							"content": "[]>narrator:There you go <3\n[]>narrator:Dear reader; This template comes with all the simple things you need to make your own visual novel. There's a guide for the setup [url=https://github.com/SnekOfSpice/dialog-editor/wiki/Using-the-visual-novel-template]here[/url]. I would recommend you still know the very basics of Godot, maybe look into how to use themes."
@@ -1299,12 +1062,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 0.0,
+						"line_type": 0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": false,
-						"meta.line_index": 2.0,
+						"meta.line_index": 2,
 						"meta.selector": {
 							"selected": false
 						}
@@ -1312,7 +1075,7 @@
 					{
 						"address": "2.3",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -1321,14 +1084,17 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
 						"content": {
 							"active_actors": [
 								"narrator",
-								"amber"
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
 							],
 							"active_actors_title": "character",
 							"content": "[]>narrator:How can you leave this place again? Well you can just terminate the page by not having it point to a page again. <mp>[rainbow freq=1.0 sat=0.8 val=0.8]Go out there and create![/rainbow]\n[]>narrator:This demo and DIISIS entirely was made by [url=https://snekofspice.itch.io/]Snek[/url].\n[]>narrator:Music by [url=https://chezmonplaisir.bandcamp.com/album/chill-for-real]Loyalty Freak Music[/url].\n[]>narrator:Amber art by [url=https://x.com/_10qi]10qi[/url]."
@@ -1340,22 +1106,22 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 0.0,
+						"line_type": 0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": false,
-						"meta.line_index": 3.0,
+						"meta.line_index": 3,
 						"meta.selector": {
 							"selected": false
 						}
 					}
 				],
-				"meta.address_mode_next": 1.0,
-				"meta.scroll_vertical": 0.0,
+				"meta.address_mode_next": 1,
+				"meta.scroll_vertical": 0,
 				"meta.selected": false,
 				"next": 0.0,
-				"number": 2.0,
+				"number": 2,
 				"page_key": "",
 				"terminate": true
 			}
