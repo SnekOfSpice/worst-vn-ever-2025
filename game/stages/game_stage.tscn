@@ -117,9 +117,21 @@ script = ExtResource("3_x2eff")
 
 [node name="Characters" type="Node2D" parent="."]
 
-[node name="Character" parent="Characters" instance=ExtResource("3_tdgll")]
+[node name="Zif" parent="Characters" instance=ExtResource("3_tdgll")]
 position = Vector2(559, 375)
-character_name = "amber"
+character_name = "zif"
+
+[node name="Accendia" parent="Characters" instance=ExtResource("3_tdgll")]
+position = Vector2(211, 375)
+character_name = "accendia"
+
+[node name="Sidsel" parent="Characters" instance=ExtResource("3_tdgll")]
+position = Vector2(387, 375)
+character_name = "sidsel"
+
+[node name="Pilot" parent="Characters" instance=ExtResource("3_tdgll")]
+position = Vector2(816, 375)
+character_name = "pilot"
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(576, 324)
@@ -688,6 +700,7 @@ blank_names = Array[String](["narrator"])
 name_map = Dictionary[String, String]({
 "amber": "Amber"
 })
+chatlog_enabled = null
 choice_container = NodePath("../Camera2D/CanvasLayer/VNUIRoot/VNUI/ChoiceContainer")
 choice_option_container = NodePath("../Camera2D/CanvasLayer/VNUIRoot/VNUI/ChoiceContainer/ChoiceOptionContainer")
 text_content = NodePath("../Camera2D/CanvasLayer/VNUIRoot/VNUI/TextContainer1/MarginContainer/VBoxContainer/MarginContainer2/Panel/MarginContainer/RichTextLabel")

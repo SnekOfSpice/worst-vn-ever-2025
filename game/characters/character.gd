@@ -55,12 +55,17 @@ func _ready():
 	
 	set_emotion("neutral")
 	ParserEvents.dialog_line_args_passed.connect(on_dialog_line_args_passed)
+	ParserEvents.actor_name_changed.connect(on_actor_name_changed)
 	add_to_group("character")
 	target_x = position.x
 	
 	
 	
 	visibility_changed.connect(on_visibility_changed)
+
+func on_actor_name_changed(actor_name:String, is_visible:bool):
+	if actor_name == character_name:
+		set_emotion("neutral")
 
 func set_x_position(idx:int, time := 0, advance_instruction_after_reposition:=false):
 	var position0 = 195
@@ -118,6 +123,8 @@ func on_dialog_line_args_passed(actor_name: String, dialog_line_args: Dictionary
 		var new_emotion : String = dialog_line_args.get(str(character_name, "-emotion"))
 		emotion = new_emotion.trim_suffix("-emotion")
 		set_emotion(emotion)
+	else:
+		set_emotion("neutral")
 
 
 func set_emotion(emotion_name:String):
