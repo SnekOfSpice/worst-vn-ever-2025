@@ -50,6 +50,7 @@ var target_sun_fill_amount := -1.0
 var target_static := 0.0
 
 func _ready():
+	find_child("Delsym").visible = false
 	find_child("StartCover").visible = true
 	ParserEvents.actor_name_changed.connect(on_actor_name_changed)
 	ParserEvents.text_content_text_changed.connect(on_text_content_text_changed)
@@ -489,6 +490,18 @@ func set_static(level:float):
 	target_static = level
 	
 
+func set_stream(value:bool):
+	$LineReader.keep_past_lines = value
+	find_child("StreamOverlay").visible = value
+	find_child("TextContainer1").visible = not value
+	if value:
+		$LineReader.past_text_container = find_child("StreamOverlay").find_child("ChatLog")
+		$LineReader.name_style = LineReader.NameStyle.Prepend
+		$LineReader.text_content = find_child("StreamOverlay").find_child("ChatLabel")
+	else:
+		$LineReader.name_style = LineReader.NameStyle.NameLabel
+		$LineReader.text_content = find_child("TextContainer1").find_child("RichTextLabel")
+	
 func set_fade_out(lod:float, mix:float):
 	target_lod = lod
 	target_mix = mix
@@ -508,3 +521,7 @@ func _on_rich_text_label_meta_hover_ended(_meta: Variant) -> void:
 
 func _on_rich_text_label_meta_hover_started(_meta: Variant) -> void:
 	hovering_meta = true
+
+
+func _on_drugz_button_pressed() -> void:
+	find_child("Delsym").visible = not find_child("Delsym").visible

@@ -225,3 +225,7 @@ func use_ui(id: float) -> bool:
 func cum(voice: String) -> bool:
 	GameWorld.game_stage.cum(voice)
 	return false
+
+func set_stream(value : bool) -> bool:
+	GameWorld.game_stage.set_stream(value)
+	return false

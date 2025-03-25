@@ -60,7 +60,6 @@ expand_margin_right = 1.0
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_76e30"]
 content_margin_top = 4.0
 bg_color = Color(0.0840718, 0.0611886, 0.0503078, 0.968627)
-skew = Vector2(0.14, 0)
 border_width_left = 5
 border_width_top = 3
 border_width_right = 5

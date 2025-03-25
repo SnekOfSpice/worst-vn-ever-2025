@@ -1,4 +1,4 @@
-[gd_scene load_steps=48 format=3 uid="uid://r1ntcqdujfol"]
+[gd_scene load_steps=50 format=3 uid="uid://r1ntcqdujfol"]
 
 [ext_resource type="Script" uid="uid://j84s4qlkmfxw" path="res://game/stages/game_stage.gd" id="1_a36me"]
 [ext_resource type="Script" uid="uid://rq52trv32gab" path="res://addons/diisis/parser/src/line_reader.gd" id="1_h4afo"]
@@ -16,11 +16,13 @@
 [ext_resource type="Script" uid="uid://c2vvnjn4tl6a7" path="res://game/stages/game_camera.gd" id="9_lbjue"]
 [ext_resource type="Theme" uid="uid://drk5fhsdjoewf" path="res://game/visuals/theme/diisis_theme.tres" id="11_n0ymb"]
 [ext_resource type="PackedScene" uid="uid://cjy7vf1xrnq5y" path="res://game/screens/chapter_cover.tscn" id="12_vf2y4"]
+[ext_resource type="Texture2D" uid="uid://bf2m6kd5wrllo" path="res://game/visuals/twitch.png" id="13_ij3no"]
 [ext_resource type="PackedScene" uid="uid://biu88w163ploy" path="res://game/systems/cheats.tscn" id="13_qackq"]
 [ext_resource type="Script" uid="uid://byyv78vc44g4u" path="res://game/stages/start_cover.gd" id="13_qfsh6"]
 [ext_resource type="Shader" uid="uid://bhcpxuibbsole" path="res://game/stages/one_fadeout.gdshader" id="15_heqc4"]
 [ext_resource type="Shader" uid="uid://oj2v8kbp13pd" path="res://game/stages/static.gdshader" id="17_dc0ef"]
 [ext_resource type="PackedScene" uid="uid://ipa310726xyt" path="res://game/stages/rolling_credits.tscn" id="17_gnute"]
+[ext_resource type="Texture2D" uid="uid://73a3bbmwiq78" path="res://game/visuals/drugz.png" id="19_7wbxo"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3ca2q"]
 resource_local_to_scene = true
@@ -559,6 +561,49 @@ theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_wfwvw")
 theme_override_styles/normal = SubResource("StyleBoxEmpty_pgtnv")
 text = "Menu"
 
+[node name="StreamOverlay" type="TextureRect" parent="Camera2D/CanvasLayer/VNUIRoot/VNUI"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("13_ij3no")
+
+[node name="PanelContainer" type="PanelContainer" parent="Camera2D/CanvasLayer/VNUIRoot/VNUI/StreamOverlay"]
+layout_mode = 1
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -205.0
+offset_bottom = -1.0
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Camera2D/CanvasLayer/VNUIRoot/VNUI/StreamOverlay/PanelContainer"]
+layout_mode = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Camera2D/CanvasLayer/VNUIRoot/VNUI/StreamOverlay/PanelContainer/VBoxContainer"]
+clip_contents = false
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ChatLog" type="VBoxContainer" parent="Camera2D/CanvasLayer/VNUIRoot/VNUI/StreamOverlay/PanelContainer/VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 2
+
+[node name="ChatLabel" type="RichTextLabel" parent="Camera2D/CanvasLayer/VNUIRoot/VNUI/StreamOverlay/PanelContainer/VBoxContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+bbcode_enabled = true
+
+[node name="MarginContainer" type="MarginContainer" parent="Camera2D/CanvasLayer/VNUIRoot/VNUI/StreamOverlay/PanelContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 35
+
 [node name="CGTopContainer" type="Control" parent="Camera2D/CanvasLayer/VNUIRoot"]
 visible = false
 layout_mode = 1
@@ -594,6 +639,19 @@ layout_mode = 1
 
 [node name="RollingCredits" parent="Camera2D/CanvasLayer/VNUIRoot" instance=ExtResource("17_gnute")]
 layout_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Camera2D/CanvasLayer/VNUIRoot"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="DrugzButton" type="Button" parent="Camera2D/CanvasLayer/VNUIRoot/VBoxContainer"]
+layout_mode = 2
+focus_mode = 0
+text = "drugz"
+
+[node name="Delsym" type="TextureRect" parent="Camera2D/CanvasLayer/VNUIRoot/VBoxContainer"]
+layout_mode = 2
+texture = ExtResource("19_7wbxo")
 
 [node name="StartCover" type="ColorRect" parent="Camera2D/CanvasLayer"]
 visible = false
@@ -662,6 +720,7 @@ script = ExtResource("6_8ao3j")
 [connection signal="mouse_entered" from="Camera2D/CanvasLayer/VNUIRoot/VNUI/ControlsContainer/MenuButton" to="." method="increment_advance_blocker"]
 [connection signal="mouse_exited" from="Camera2D/CanvasLayer/VNUIRoot/VNUI/ControlsContainer/MenuButton" to="." method="decrement_advance_blocker"]
 [connection signal="pressed" from="Camera2D/CanvasLayer/VNUIRoot/VNUI/ControlsContainer/MenuButton" to="." method="_on_menu_button_pressed"]
+[connection signal="pressed" from="Camera2D/CanvasLayer/VNUIRoot/VBoxContainer/DrugzButton" to="." method="_on_drugz_button_pressed"]
 [connection signal="request_object_visible" from="InstructionHandler" to="Objects" method="set_object_visible"]
 [connection signal="splatter" from="InstructionHandler" to="." method="_on_instruction_handler_splatter"]
 [connection signal="start_black_fade" from="InstructionHandler" to="Camera2D/CanvasLayer/VNUIRoot/BlackFade" method="_on_handler_start_black_fade"]
