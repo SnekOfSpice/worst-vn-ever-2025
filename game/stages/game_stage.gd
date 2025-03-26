@@ -200,12 +200,15 @@ func set_cg(cg_name:String, fade_in_duration:float, cg_root:Control):
 	var cg_node = TextureRect.new()
 	cg_root.add_child(cg_node)
 	cg_node.set_anchors_preset(Control.PRESET_FULL_RECT)
-	var cg_path := str("res://game/cg/", cg_name, ".png")
-	if not ResourceLoader.exists(cg_path):
-		cg_name = cg
-		str("res://game/cg/", cg_name, ".png")
-		push_warning(str("Couldn't find CG \"", cg_name, "\"."))
-	cg_node.texture = load(cg_path)
+	if cg_name == "SCREENSHOT":
+		cg_node.texture = get_viewport().get_texture()
+	else:
+		var cg_path := str("res://game/cg/", cg_name, ".png")
+		if not ResourceLoader.exists(cg_path):
+			cg_name = cg
+			str("res://game/cg/", cg_name, ".png")
+			push_warning(str("Couldn't find CG \"", cg_name, "\"."))
+		cg_node.texture = load(cg_path)
 	var t = create_tween()
 	
 	if cg_root.modulate.a == 1.0:
