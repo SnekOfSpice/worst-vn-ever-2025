@@ -43,17 +43,18 @@ custom_minimum_size = Vector2(600, 400)
 layout_mode = 2
 size_flags_horizontal = 4
 bbcode_enabled = true
-text = "[center][img=400]res://addons/diisis/logo3.png[/img]
-~ Visual Novel Template ~
+text = "[center]
+~ Worst VN 2025 ~
 
-Programmed by [url=https://snekofspice.itch.io/]Snek[/url]
+[b]Made by[/b]
+[url=https://snekofspice.itch.io/]Snek[/url]    [url=https://aenthroppe.itch.io/]Ænthroppe[/url]    idk which name you wanna use here    dings
 
-Background Music
-[url=https://lmnlrecords.bandcamp.com/track/its-not-pretty-here]Modela - It's Not Pretty Here [/url]
-[url=https://chezmonplaisir.bandcamp.com/track/vroom-vroom-heart-heart-blob-0w0]Loyalty Freak Music - Vroom Vroom Heart Heart :blob_0w0​:​​[/url]
 
-Character Art
-[url=https://x.com/_10qi]10qi[/url]"
+[b]Background Music[/b]
+[url=https://freemusicarchive.org/music/pufino/single/vibing-chill-lofi-royalty-free-music/]Vibing (Chill Lofi Royalty Free Music) by Pufino (Free Music Archive) (CC BY 4.0)[/url]
+
+
+[font_size=23][i][url=https://github.com/SnekOfSpice/dialog-editor/]Made with [img=100]addons/diisis/logo3_nosub.png[/img][/url][/i][/font_size]"
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 1

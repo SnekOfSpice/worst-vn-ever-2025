@@ -31,8 +31,8 @@ func set_screen(screen_path:String, payload := {}):
 		for c in screen_container.get_children():
 			c.queue_free()
 		screen_container.visible = false
-		if $StageContainer.get_child_count() > 0:
-			$StageContainer.get_child(0).grab_focus()
+		#if $StageContainer.get_child_count() > 0:
+			#$StageContainer.get_child(0).grab_focus()
 		screen = screen_path
 		return
 	var new_stage = load(str(CONST.SCREEN_ROOT, screen_path)).instantiate()

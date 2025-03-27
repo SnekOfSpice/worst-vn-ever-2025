@@ -66,9 +66,10 @@ layer = 3
 anchors_preset = 4
 anchor_top = 0.5
 anchor_bottom = 0.5
-offset_top = -92.0
-offset_right = 671.0
-offset_bottom = 92.0
+offset_left = 174.0
+offset_top = -11.0
+offset_right = 845.0
+offset_bottom = 217.0
 grow_vertical = 2
 theme = ExtResource("3_fjoxk")
 theme_override_constants/margin_left = 7
@@ -79,7 +80,7 @@ size_flags_horizontal = 0
 theme = ExtResource("3_fjoxk")
 theme_override_constants/separation = 12
 
-[node name="HBoxContainer" type="VBoxContainer" parent="CanvasLayer2/MarginContainer/VBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer2/MarginContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
 
@@ -107,9 +108,10 @@ theme_override_font_sizes/font_size = 30
 text = "Epilogue"
 alignment = 2
 
-[node name="HBoxContainer2" type="VBoxContainer" parent="CanvasLayer2/MarginContainer/VBoxContainer"]
+[node name="HBoxContainer2" type="GridContainer" parent="CanvasLayer2/MarginContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
+columns = 2
 
 [node name="OptionsButton" type="Button" parent="CanvasLayer2/MarginContainer/VBoxContainer/HBoxContainer2"]
 auto_translate_mode = 1
@@ -120,6 +122,7 @@ alignment = 2
 
 [node name="CWButton" type="Button" parent="CanvasLayer2/MarginContainer/VBoxContainer/HBoxContainer2"]
 auto_translate_mode = 1
+visible = false
 layout_mode = 2
 focus_mode = 0
 text = "Content Warning"

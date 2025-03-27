@@ -611,6 +611,7 @@ alignment = 2
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 bbcode_enabled = true
+fit_content = true
 
 [node name="MarginContainer" type="MarginContainer" parent="Camera2D/CanvasLayer/VNUIRoot/VNUI/StreamOverlay/PanelContainer/VBoxContainer"]
 layout_mode = 2
