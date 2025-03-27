@@ -397,18 +397,12 @@ func _on_text_box_item_rect_changed() -> void:
 	var textbox_height = text_box.size.y
 	var scroll : ScrollContainer = find_child("ScrollContainer")
 	if textbox_height <= half_height:
-		#scroll.clip_contents = true
 		scroll.vertical_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
-		
 		scroll.custom_minimum_size = text_box.custom_minimum_size
 		find_child("ScrollHintTop").visible = false
 		find_child("ScrollHintBottom").visible = false
 	else:
-		#scroll.clip_contents = false
 		scroll.vertical_scroll_mode = ScrollContainer.SCROLL_MODE_AUTO
 		scroll.custom_minimum_size.y = half_height
-		# toggle clip contents?
 		find_child("ScrollHintBottom").visible = scroll.scroll_vertical == 0
 		find_child("ScrollHintTop").visible = scroll.scroll_vertical >= scroll.get_v_scroll_bar().max_value - (scroll.size.y + 1)
-		
-		printt(scroll.scroll_vertical, scroll.get_v_scroll_bar().max_value, scroll.size.y, find_child("ScrollHintTop").visible)
