@@ -351,6 +351,7 @@ func serialize() -> Dictionary:
 	
 	result["camera"] = $Camera2D.serialize()
 	result["ui_id"] = ui_id
+	result["is_stream"] = find_child("StreamOverlay").visible
 	
 	return result
 
@@ -408,6 +409,7 @@ func deserialize(data:Dictionary):
 	
 	use_ui(data.get("ui_id", 1))
 	base_cg_offset = GameWorld.str_to_vec2(data.get("base_cg_offset", Vector2.ZERO))
+	set_stream(data.get("is_stream", false))
 
 var emit_insutrction_complete_on_cg_hide :bool
 
@@ -500,10 +502,16 @@ func set_stream(value:bool):
 	if value:
 		$LineReader.past_text_container = find_child("StreamOverlay").find_child("ChatLog")
 		$LineReader.name_style = LineReader.NameStyle.Prepend
+		var switch_text:bool = $LineReader.text_content == find_child("TextContainer1").find_child("RichTextLabel")
 		$LineReader.text_content = find_child("StreamOverlay").find_child("ChatLabel")
+		if switch_text:
+			$LineReader.text_content.text = find_child("TextContainer1").find_child("RichTextLabel").text
 	else:
 		$LineReader.name_style = LineReader.NameStyle.NameLabel
+		var switch_text:bool = $LineReader.text_content == find_child("StreamOverlay").find_child("ChatLabel")
 		$LineReader.text_content = find_child("TextContainer1").find_child("RichTextLabel")
+		if switch_text:
+			$LineReader.text_content.text = find_child("StreamOverlay").find_child("ChatLabel").text
 	
 func set_fade_out(lod:float, mix:float):
 	target_lod = lod
