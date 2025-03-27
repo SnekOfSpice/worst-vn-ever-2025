@@ -16,10 +16,10 @@ const BACKGROUND_ROOT := "res://game/backgrounds/"
 const BACKGROUND_DEFAULT := "void.png"
 const BACKGROUND_SKYLINE := "skyline.png"
 const BACKGROUND_KITCHEN := "kitchen.jpg"
+const BACKGROUND_LIVING_ROOM := "kitchen.jpg"
 
 const MUSIC_ROOT := "res://game/sounds/music/"
-const MUSIC_DEFAULT := "Loyalty Freak Music - CHILL FOR REAL ! - 06 Vroom Vroom Heart Heart -blob_0w0-​.ogg"
-const MUSIC_MAIN_MENU := "Modela - It's Not Pretty Here.ogg"
+const MUSIC_MAIN_MENU := "32239__jbum__whitneymicrotones.ogg"
 const MUSIC_STREAM := "Modela - It's Not Pretty Here.ogg" # ph
 const MUSIC_WEED := "Pufino - Vibing (Chill Lofi Royalty Free Music).mp3"
 

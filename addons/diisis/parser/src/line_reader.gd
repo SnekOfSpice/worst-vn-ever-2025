@@ -702,8 +702,8 @@ func read_new_line(new_line: Dictionary):
 				dialog_actors.clear()
 				dialog_actors = [""]
 			
-			dialog_lines = replace_tags(dialog_lines)
-			
+			dialog_lines = _replace_tags(dialog_lines)
+			dialog_lines = _replace_control_sequences(dialog_lines)
 			
 			set_dialog_line_index(0)
 		DIISIS.LineType.Choice:
@@ -1037,7 +1037,7 @@ func start_showing_text():
 	fit_to_max_line_count(line_chunks)
 	read_next_chunk()
 
-func replace_tags(lines:Array) -> Array:
+func _replace_tags(lines:Array) -> Array:
 	if not inline_evaluator:
 		push_warning("No InlineEvaluator has been set. Calls to <var:>, <func:>, <name:>, <call:>, and <fact:> won't be parsed.")
 		return lines
@@ -1126,6 +1126,17 @@ func replace_tags(lines:Array) -> Array:
 				
 			text_length = new_text.length()
 			scan_index += 1
+		result.append(new_text)
+		i += 1
+	return result
+
+func _replace_control_sequences(lines:Array) -> Array:
+	var result := []
+	var i := 0
+	while i < lines.size():
+		var new_text:String = lines[i]
+		new_text = new_text.replace("\\n", "\n")
+		new_text = new_text.replace("\\t", "\t")
 		result.append(new_text)
 		i += 1
 	return result

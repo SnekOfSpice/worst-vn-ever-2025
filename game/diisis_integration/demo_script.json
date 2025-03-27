@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"current_page_number": 1,
+		"current_page_number": 2,
 		"page_view": 0,
 		"text_size_id": 3
 	},
@@ -404,7 +404,7 @@
 					{
 						"address": "0.0",
 						"conditionals": {
-							"behavior": 0,
+							"behavior": 0.0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -413,7 +413,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0,
+							"operand": 0.0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -438,12 +438,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 2,
+						"line_type": 2.0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0,
+						"meta.indent_level": 0.0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0,
+						"meta.line_index": 0.0,
 						"meta.selector": {
 							"selected": false
 						}
@@ -451,7 +451,7 @@
 					{
 						"address": "0.1",
 						"conditionals": {
-							"behavior": 0,
+							"behavior": 0.0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -460,7 +460,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0,
+							"operand": 0.0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -486,12 +486,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 2,
+						"line_type": 2.0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0,
+						"meta.indent_level": 0.0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 1,
+						"meta.line_index": 1.0,
 						"meta.selector": {
 							"selected": false
 						}
@@ -499,7 +499,7 @@
 					{
 						"address": "0.2",
 						"conditionals": {
-							"behavior": 0,
+							"behavior": 0.0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -508,7 +508,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0,
+							"operand": 0.0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -516,13 +516,13 @@
 							"delay_after": 0.0,
 							"delay_before": 0.0,
 							"line_reader.args": [
-								"default",
+								"stream",
 								2.0
 							],
 							"line_reader.reverse_args": [],
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
-							"meta.text": "set_bgm(default, 2)",
+							"meta.text": "set_bgm(stream, 2)",
 							"meta.validation_status": "OK",
 							"name": "set_bgm",
 							"reverse_name": ""
@@ -534,12 +534,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 2,
+						"line_type": 2.0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0,
+						"meta.indent_level": 0.0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 2,
+						"meta.line_index": 2.0,
 						"meta.selector": {
 							"selected": false
 						}
@@ -547,7 +547,7 @@
 					{
 						"address": "0.3",
 						"conditionals": {
-							"behavior": 0,
+							"behavior": 0.0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -556,7 +556,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0,
+							"operand": 0.0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -581,12 +581,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 2,
+						"line_type": 2.0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0,
+						"meta.indent_level": 0.0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 3,
+						"meta.line_index": 3.0,
 						"meta.selector": {
 							"selected": false
 						}
@@ -594,7 +594,7 @@
 					{
 						"address": "0.4",
 						"conditionals": {
-							"behavior": 0,
+							"behavior": 0.0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -603,7 +603,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0,
+							"operand": 0.0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -616,7 +616,7 @@
 								"accendia"
 							],
 							"active_actors_title": "character",
-							"content": "[]>zif:ayo what's up gamers<lc>today were gaming.<lc>fuck me"
+							"content": "[]>zif:Zif:“You all are joining me on the “4 DAY VISUAL NOVEL CHALLENGE””\n[]>pilot: “its. it’s just a jam bro. wtf are you talking about. and it’s 3 days”"
 						},
 						"facts": {
 							"fact_data_by_name": {
@@ -625,12 +625,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 0,
+						"line_type": 0.0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0,
+						"meta.indent_level": 0.0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 4,
+						"meta.line_index": 4.0,
 						"meta.selector": {
 							"selected": false
 						}
@@ -638,7 +638,7 @@
 					{
 						"address": "0.5",
 						"conditionals": {
-							"behavior": 0,
+							"behavior": 0.0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -647,7 +647,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0,
+							"operand": 0.0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -672,12 +672,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 2,
+						"line_type": 2.0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0,
+						"meta.indent_level": 0.0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 5,
+						"meta.line_index": 5.0,
 						"meta.selector": {
 							"selected": false
 						}
@@ -685,7 +685,7 @@
 					{
 						"address": "0.6",
 						"conditionals": {
-							"behavior": 0,
+							"behavior": 0.0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -694,7 +694,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0,
+							"operand": 0.0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -716,22 +716,22 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 0,
+						"line_type": 0.0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0,
+						"meta.indent_level": 0.0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 6,
+						"meta.line_index": 6.0,
 						"meta.selector": {
 							"selected": false
 						}
 					}
 				],
-				"meta.address_mode_next": 0,
-				"meta.scroll_vertical": 575,
+				"meta.address_mode_next": 0.0,
+				"meta.scroll_vertical": 564.0,
 				"meta.selected": false,
 				"next": 1.0,
-				"number": 0,
+				"number": 0.0,
 				"page_key": "opening",
 				"terminate": false
 			},
@@ -768,7 +768,7 @@
 								"accendia"
 							],
 							"active_actors_title": "character",
-							"content": "[]>narrator:so after a while we get to a scene where accendia and sidsel go out to lidl to get food."
+							"content": "[]>narrator:The gang struggles to come up with a game idea"
 						},
 						"facts": {
 							"fact_data_by_name": {
@@ -812,7 +812,112 @@
 								"accendia"
 							],
 							"active_actors_title": "character",
-							"content": "[]>accendia:so I totally forgot what we were supposed to get\n[]>sidsel:shit me 2"
+							"content": "[]>sidsel:what about a mating sim :3c\\nI mean dating sim >~<"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 1,
+						"meta.selector": {
+							"selected": false
+						}
+					}
+				],
+				"meta.address_mode_next": 0,
+				"meta.scroll_vertical": 0,
+				"meta.selected": false,
+				"next": 2.0,
+				"number": 1,
+				"page_key": "The gang struggles to come up with a game idea",
+				"terminate": false
+			},
+			"2": {
+				"facts": {
+					"fact_data_by_name": {
+
+					},
+					"meta.visible": false
+				},
+				"lines": [
+					{
+						"address": "2.0",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
+							],
+							"active_actors_title": "character",
+							"content": "[]>narrator:so after a while we get to a scene where accendia and sidsel go out to lidl to get food."
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "2.1",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
+							],
+							"active_actors_title": "character",
+							"content": "[]>sidsel:LIDL TIMEEEEEE :333333<mp>YIPPEEEEEE >.<\n[]>accendia:[wave amp=50.0 freq=5.0 connected=1]sigh[/wave].\n[]>narrator:and then our glorious furry freak soldiers saunder on into the local Lidl"
 						},
 						"facts": {
 							"fact_data_by_name": {
@@ -832,7 +937,95 @@
 						}
 					},
 					{
-						"address": "1.2",
+						"address": "2.2",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
+							],
+							"active_actors_title": "character",
+							"content": "[]>accendia:so I totally forgot what we were supposed to get\n[]>sidsel:shit me 2"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 2,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "2.3",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
+							],
+							"active_actors_title": "character",
+							"content": "[]>narrator:PH AND THEN THEY CALL THE OTHERS BECAUSE THEYRE STIPID IDTIOS"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 3,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "2.4",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -874,13 +1067,13 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 2,
+						"meta.line_index": 4,
 						"meta.selector": {
 							"selected": false
 						}
 					},
 					{
-						"address": "1.3",
+						"address": "2.5",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -904,7 +1097,7 @@
 								"accendia"
 							],
 							"active_actors_title": "character",
-							"content": "[]>narrator:and then they get high"
+							"content": "[]>accendia: This game jam stuff is so exhausting\n[]>accendia: And I'm not even part of your team officially. I just fucking live here.\n[]>sidsel: awww \n[]>sidsel: want me to paint your walls?\n[]>accendia: -.-\n[]>sidsel: nyan-sexwually i mean~\n[]>sidsel: y'knyow\n[]>sidsel: pawsie-wawsies bappin on ur woodchip paper makin' it all funny and coworful\n[]>accendia: I know.\n[]>accendia: My room needs no decorating currently, Sidsel\n[]>sidsel: okies ^^\n[]>accendia: do you think they need us back this soon?\n[]>sidsel: i dunno ^^\n[]>sidsel: prolly nyot\n[]>sidsel: i dun wanna work all day anyways\n[]>sidsel: fuck working all day\n[]>sidsel: whoever came up with a work day thats longer than 2 hours should be shot\n[]>accendia: Well spoken Comrade Sidsel\n[]>sidsel: ty :3\n[]>accendia: wanna get high?\n[]>narrator: they still havent moved out of the lidl parking lot, fyi\n[]>narrator: but im just the disembodied narration voice of this scene so who gaf\n[]>sidsel: [rainbow freq=1.0 sat=0.8 val=0.8 speed=1.0]awawa[/rainbow]\n[]>narrator: this means that yes, these two will now proceed to get lit up in the lidl parking lot"
 						},
 						"facts": {
 							"fact_data_by_name": {
@@ -918,30 +1111,13 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 3,
+						"meta.line_index": 5,
 						"meta.selector": {
 							"selected": false
 						}
-					}
-				],
-				"meta.address_mode_next": 0,
-				"meta.scroll_vertical": 0,
-				"meta.selected": false,
-				"next": 2.0,
-				"number": 1,
-				"page_key": "lidl",
-				"terminate": false
-			},
-			"2": {
-				"facts": {
-					"fact_data_by_name": {
-
 					},
-					"meta.visible": false
-				},
-				"lines": [
 					{
-						"address": "2.0",
+						"address": "2.6",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -953,6 +1129,163 @@
 							},
 							"meta.visible": false,
 							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
+							],
+							"active_actors_title": "character",
+							"content": "[]>accendia: awesome\n[]>narrator: sidsel and accendia place the shopping bags on the concrete floor. the sun is overhead. the rest of the environment is as you'd expect\n[]>narrator: accendia procures a joint.\n[]>sidsel: based\n[]>narrator: the normal humans living here that we didn't give a shit worldbuilding around steer clear of these two doofuses\n[]>narrator: and then these two just chillax."
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 6,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "2.7",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 10.0,
+							"line_reader.args": [
+								8.0,
+								2.0,
+								2.0,
+								false,
+								"living_room",
+								"none"
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "black_fade(8,2,2,false,living_room,none)",
+							"meta.validation_status": "OK",
+							"name": "black_fade",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 7,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "2.8",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
+							],
+							"active_actors_title": "character",
+							"content": "[]>pilot:where the FUCK were you guys??\n[]>sidsel:ehehehe <comment:can we give them stoned sprites?>\n[]>zif:Woah! That's against Twitch ToS!\n[]>pilot:no its not\\ncalm your forehead"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 8,
+						"meta.selector": {
+							"selected": false
+						}
+					}
+				],
+				"meta.address_mode_next": 0,
+				"meta.scroll_vertical": 1421,
+				"meta.selected": false,
+				"next": 3.0,
+				"number": 2,
+				"page_key": "lidl",
+				"terminate": false
+			},
+			"3": {
+				"facts": {
+					"fact_data_by_name": {
+
+					},
+					"meta.visible": false
+				},
+				"lines": [
+					{
+						"address": "2.0",
+						"conditionals": {
+							"behavior": 0.0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0.0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -979,12 +1312,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 2,
+						"line_type": 2.0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0,
+						"meta.indent_level": 0.0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0,
+						"meta.line_index": 0.0,
 						"meta.selector": {
 							"selected": false
 						}
@@ -992,7 +1325,7 @@
 					{
 						"address": "2.1",
 						"conditionals": {
-							"behavior": 0,
+							"behavior": 0.0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -1001,7 +1334,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0,
+							"operand": 0.0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -1023,22 +1356,22 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 0,
+						"line_type": 0.0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0,
+						"meta.indent_level": 0.0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 1,
+						"meta.line_index": 1.0,
 						"meta.selector": {
 							"selected": false
 						}
 					}
 				],
-				"meta.address_mode_next": 1,
-				"meta.scroll_vertical": 0,
+				"meta.address_mode_next": 1.0,
+				"meta.scroll_vertical": 0.0,
 				"meta.selected": false,
 				"next": 0.0,
-				"number": 2,
+				"number": 3.0,
 				"page_key": "",
 				"terminate": true
 			}
