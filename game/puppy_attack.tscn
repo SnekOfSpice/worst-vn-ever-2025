@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://gmopbqtthj5o"]
+
+[ext_resource type="Script" uid="uid://bhrw2uu4gg2i7" path="res://game/scripts/puppy_attack.gd" id="1_nl3wp"]
+[ext_resource type="Script" uid="uid://48if1ta8q67" path="res://game/scripts/jiggle_text_effect.gd" id="2_hi472"]
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_3sxse"]
+script = ExtResource("2_hi472")
+metadata/_custom_type_script = "uid://48if1ta8q67"
+
+[node name="PuppyAttack" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_nl3wp")
+spawn_time = 0.2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+visible = false
+layout_mode = 0
+offset_right = 181.0
+offset_bottom = 40.0
+text = "=owo="
+custom_effects = [SubResource("RichTextEffect_3sxse")]
