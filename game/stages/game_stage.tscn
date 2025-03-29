@@ -1,4 +1,4 @@
-[gd_scene load_steps=50 format=3 uid="uid://r1ntcqdujfol"]
+[gd_scene load_steps=51 format=3 uid="uid://r1ntcqdujfol"]
 
 [ext_resource type="Script" uid="uid://j84s4qlkmfxw" path="res://game/stages/game_stage.gd" id="1_a36me"]
 [ext_resource type="Script" uid="uid://rq52trv32gab" path="res://addons/diisis/parser/src/line_reader.gd" id="1_h4afo"]
@@ -23,6 +23,7 @@
 [ext_resource type="Shader" uid="uid://oj2v8kbp13pd" path="res://game/stages/static.gdshader" id="17_dc0ef"]
 [ext_resource type="PackedScene" uid="uid://ipa310726xyt" path="res://game/stages/rolling_credits.tscn" id="17_gnute"]
 [ext_resource type="Texture2D" uid="uid://73a3bbmwiq78" path="res://game/visuals/drugz.png" id="19_7wbxo"]
+[ext_resource type="PackedScene" uid="uid://gmopbqtthj5o" path="res://game/stages/puppy/puppy_attack.tscn" id="21_pxthe"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3ca2q"]
 resource_local_to_scene = true
@@ -658,6 +659,11 @@ layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
+[node name="PuppyButton" type="Button" parent="Camera2D/CanvasLayer/VNUIRoot/VBoxContainer"]
+layout_mode = 2
+focus_mode = 0
+text = "puppy :3"
+
 [node name="DrugzButton" type="Button" parent="Camera2D/CanvasLayer/VNUIRoot/VBoxContainer"]
 layout_mode = 2
 focus_mode = 0
@@ -677,6 +683,8 @@ grow_vertical = 2
 mouse_filter = 2
 color = Color(0, 0, 0, 1)
 script = ExtResource("13_qfsh6")
+
+[node name="PuppyAttack" parent="Camera2D/CanvasLayer" instance=ExtResource("21_pxthe")]
 
 [node name="ScreenContainer" type="Control" parent="Camera2D/CanvasLayer"]
 layout_mode = 3
@@ -734,6 +742,7 @@ script = ExtResource("6_8ao3j")
 [connection signal="mouse_entered" from="Camera2D/CanvasLayer/VNUIRoot/VNUI/ControlsContainer/MenuButton" to="." method="increment_advance_blocker"]
 [connection signal="mouse_exited" from="Camera2D/CanvasLayer/VNUIRoot/VNUI/ControlsContainer/MenuButton" to="." method="decrement_advance_blocker"]
 [connection signal="pressed" from="Camera2D/CanvasLayer/VNUIRoot/VNUI/ControlsContainer/MenuButton" to="." method="_on_menu_button_pressed"]
+[connection signal="pressed" from="Camera2D/CanvasLayer/VNUIRoot/VBoxContainer/PuppyButton" to="." method="_on_puppy_button_pressed"]
 [connection signal="pressed" from="Camera2D/CanvasLayer/VNUIRoot/VBoxContainer/DrugzButton" to="." method="_on_drugz_button_pressed"]
 [connection signal="request_object_visible" from="InstructionHandler" to="Objects" method="set_object_visible"]
 [connection signal="splatter" from="InstructionHandler" to="." method="_on_instruction_handler_splatter"]

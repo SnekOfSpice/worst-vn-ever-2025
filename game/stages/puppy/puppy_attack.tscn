@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://gmopbqtthj5o"]
+
+[ext_resource type="Script" uid="uid://bhrw2uu4gg2i7" path="res://game/stages/puppy/puppy_attack.gd" id="1_nl3wp"]
+
+[node name="PuppyAttack" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_nl3wp")
+spawn_time = 0.2

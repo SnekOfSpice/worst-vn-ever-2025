@@ -136,7 +136,7 @@ func cum(_voice:String):
 	get_tree().create_timer(1.5).timeout.connect(orgasm_mat.set_shader_parameter.bind("lod", 1.4))
 
 
-func _input(event: InputEvent) -> void:
+func _unhandled_input(event: InputEvent) -> void:
 	if advance_blockers > 0:
 		return
 	if not GameWorld.stage_root.screen.is_empty():
@@ -536,3 +536,7 @@ func _on_rich_text_label_meta_hover_started(_meta: Variant) -> void:
 
 func _on_drugz_button_pressed() -> void:
 	find_child("Delsym").visible = not find_child("Delsym").visible
+
+
+func _on_puppy_button_pressed() -> void:
+	find_child("PuppyAttack").spawn_puppy()

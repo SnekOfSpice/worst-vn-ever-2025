@@ -393,8 +393,8 @@ func _on_text_box_item_rect_changed() -> void:
 		text_box = find_child("TextBox")
 	if not is_instance_valid(Pages.editor):
 		return
-	var half_height := Pages.editor.size.y * 0.5
-	var textbox_height = text_box.size.y
+	var half_height : float = Pages.editor.size.y * 0.5
+	var textbox_height : float = text_box.size.y
 	var scroll : ScrollContainer = find_child("ScrollContainer")
 	if textbox_height <= half_height:
 		scroll.vertical_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED

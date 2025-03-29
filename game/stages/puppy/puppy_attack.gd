@@ -4,7 +4,7 @@ extends Control
 var spawn_time := 1.0;
 var countdown := 1.0;
 
-var puppy_text_field = preload("res://game/puppy.tscn")
+var puppy_text_field = preload("uid://cf7le7y45ohg1")
 
 var eyes := [
 	[">", "<"],
@@ -46,26 +46,26 @@ var mouths := [
 	"﹏",
 ]
 
-func _ready():
-	countdown = spawn_time
-
-func _process(delta):
-	countdown -= delta
-	if countdown <= 0:
-		countdown = spawn_time
-		spawn_puppy()
+#func _ready():
+	#countdown = spawn_time
+#
+#func _process(delta):
+	#countdown -= delta
+	#if countdown <= 0:
+		#countdown = spawn_time
+		#spawn_puppy()
 
 func spawn_puppy() -> void:
 	var puppy = puppy_text_field.instantiate()
 	var vertical_jiggle = randf_range(1, 5)
 	var horizontal_jiggle = randf_range(1, 5)
 	puppy.text = "[jiggle v=" + str(vertical_jiggle) + " h=" + str(horizontal_jiggle) + "]"
-	puppy.text += build_puppy()
+	puppy.text += _generate_puppy()
 	
 	self.add_child(puppy)
 	
 
-func build_puppy() -> String:
+func _generate_puppy() -> String:
 	randomize()
 	var has_whiskers = randf() < 0.7
 	

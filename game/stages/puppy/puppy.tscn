@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://cf7le7y45ohg1"]
 
-[ext_resource type="Script" uid="uid://48if1ta8q67" path="res://game/scripts/jiggle_text_effect.gd" id="1_0vqki"]
-[ext_resource type="Script" uid="uid://d4gm0ksvslckl" path="res://game/puppy.gd" id="2_c5x5u"]
+[ext_resource type="Script" uid="uid://48if1ta8q67" path="res://game/stages/puppy/jiggle_text_effect.gd" id="1_0vqki"]
+[ext_resource type="Script" uid="uid://d4gm0ksvslckl" path="res://game/stages/puppy/puppy.gd" id="2_c5x5u"]
 
 [sub_resource type="RichTextEffect" id="RichTextEffect_c5x5u"]
 script = ExtResource("1_0vqki")
@@ -11,6 +11,7 @@ metadata/_custom_type_script = "uid://48if1ta8q67"
 offset_right = 397.0
 offset_bottom = 131.0
 scale = Vector2(10, 10)
+mouse_filter = 2
 theme_override_constants/outline_size = 10
 bbcode_enabled = true
 text = "=owo="
