@@ -18,6 +18,7 @@ signal start_hide_cg(fade_out:float)
 signal start_rolling_credits()
 signal splatter(amount:int)
 signal start_chapter_cover(pov_name:String)
+signal request_show_evidence(id:String)
 signal request_object_visible(object_name:String, visibility:bool)
 
 signal sun(property:String, value:float)
@@ -229,3 +230,7 @@ func cum(voice: String) -> bool:
 func set_stream(value : bool) -> bool:
 	GameWorld.game_stage.set_stream(value)
 	return false
+
+func show_evidence(_name : String) -> bool:
+	emit_signal("request_show_evidence", _name)
+	return true

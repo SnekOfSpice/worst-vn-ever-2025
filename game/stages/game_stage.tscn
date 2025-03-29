@@ -111,6 +111,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 focus_mode = 2
+mouse_filter = 2
 script = ExtResource("1_a36me")
 
 [node name="Objects" type="Node2D" parent="."]
@@ -745,6 +746,7 @@ script = ExtResource("6_8ao3j")
 [connection signal="pressed" from="Camera2D/CanvasLayer/VNUIRoot/VBoxContainer/PuppyButton" to="." method="_on_puppy_button_pressed"]
 [connection signal="pressed" from="Camera2D/CanvasLayer/VNUIRoot/VBoxContainer/DrugzButton" to="." method="_on_drugz_button_pressed"]
 [connection signal="request_object_visible" from="InstructionHandler" to="Objects" method="set_object_visible"]
+[connection signal="request_show_evidence" from="InstructionHandler" to="." method="_on_instruction_handler_request_show_evidence"]
 [connection signal="splatter" from="InstructionHandler" to="." method="_on_instruction_handler_splatter"]
 [connection signal="start_black_fade" from="InstructionHandler" to="Camera2D/CanvasLayer/VNUIRoot/BlackFade" method="_on_handler_start_black_fade"]
 [connection signal="start_hide_cg" from="InstructionHandler" to="." method="hide_cg"]

@@ -540,3 +540,14 @@ func _on_drugz_button_pressed() -> void:
 
 func _on_puppy_button_pressed() -> void:
 	find_child("PuppyAttack").spawn_puppy()
+
+
+func _on_instruction_handler_request_show_evidence(id: String) -> void:
+	randomize()
+	var evidence := preload("uid://pwye1du2om3b").instantiate()
+	find_child("VNUIRoot").add_child(evidence)
+	evidence.set_evidence(id)
+	evidence.position = Vector2(
+		randi_range(208, 511),
+		randi_range(181, 454),
+	)

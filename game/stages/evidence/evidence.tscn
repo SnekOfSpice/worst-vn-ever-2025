@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=3 uid="uid://pwye1du2om3b"]
+
+[ext_resource type="Texture2D" uid="uid://dyu323vcu5wwa" path="res://game/systems/save_system/no_data.png" id="1_jytcq"]
+[ext_resource type="Script" uid="uid://q5kb8q2pprua" path="res://game/stages/evidence/evidence.gd" id="1_ym15g"]
+
+[node name="Evidence" type="PanelContainer"]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_ym15g")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "item name"
+
+[node name="CloseButton" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+text = "X"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+texture = ExtResource("1_jytcq")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = "dfhjkbgj"
+fit_content = true
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/CloseButton" to="." method="_on_close_button_pressed"]
