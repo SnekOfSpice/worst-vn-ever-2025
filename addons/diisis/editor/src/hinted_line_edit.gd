@@ -78,11 +78,14 @@ func _on_gui_input(event: InputEvent) -> void:
 		text_in_hint = text_in_hint.replace("[b]", "")
 		text_in_hint = text_in_hint.replace("[/b]", "")
 		text = str(text_in_hint, submission_append)
-		_on_text_changed(text_in_hint)
 		
 		await get_tree().process_frame
 		$ArgHint.hide()
+		
+		release_focus()
+		grab_focus()
 		caret_column = text.length() + submission_offset
+		_on_text_changed(text_in_hint)
 	if caret_column != last_caret_column:
 		emit_signal("caret_changed")
 	last_caret_column = caret_column

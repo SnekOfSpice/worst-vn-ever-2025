@@ -476,13 +476,13 @@
 							"delay_after": 0.0,
 							"delay_before": 0.0,
 							"line_reader.args": [
-								"default",
+								"living_room",
 								0.0
 							],
 							"line_reader.reverse_args": [],
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
-							"meta.text": "set_background(default, 0)",
+							"meta.text": "set_background(living_room, 0)",
 							"meta.validation_status": "OK",
 							"name": "set_background",
 							"reverse_name": ""
@@ -624,7 +624,7 @@
 								"accendia"
 							],
 							"active_actors_title": "character",
-							"content": "[]>zif:Zif:“You all are joining me on the “4 DAY VISUAL NOVEL CHALLENGE””\n[]>pilot: “its. it’s just a jam bro. wtf are you talking about. and it’s 3 days”"
+							"content": "[]>zif:Zif:“You all are joining me on the “4 DAY VISUAL NOVEL CHALLENGE””\n[]>pilot: “its. it’s just a jam bro. wtf are you talking about. and it’s 3 days”\n[]>zif:bro\n[]>pilot:bro\n[]>zif:ok so anyways! Zifnation! What is up!! Today we are attempting to make a VISUAL NOVEL in 3 DAYS!\n[]>zif:AND to ACCOMPLISH this INSANE CHALLENGE i have FORCED my IDIOT FRIENDS to work with me!!!!!"
 						},
 						"facts": {
 							"fact_data_by_name": {
@@ -645,6 +645,50 @@
 					},
 					{
 						"address": "0.5",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
+							],
+							"active_actors_title": "character",
+							"content": "[]>narrator:INSERT MORE STREAM??\n[]>zif:JOIN us TOMORROW when we GO into DAY TWO of the VISUAL NOVEL 3 DAY CHALLENGE CHALLENGE day 2"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 5,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "0.6",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -685,13 +729,61 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 5,
+						"meta.line_index": 6,
 						"meta.selector": {
 							"selected": false
 						}
 					},
 					{
-						"address": "0.6",
+						"address": "0.7",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								"casual",
+								0.0
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "set_bgm(casual, 0)",
+							"meta.validation_status": "OK",
+							"name": "set_bgm",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 7,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "0.8",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -715,7 +807,7 @@
 								"accendia"
 							],
 							"active_actors_title": "character",
-							"content": "[]>accendia:zif you are a fucking idtion\n[]>narrator:we will now show evidence"
+							"content": "[]>zif:Awesome stream everyone\n[]>sidsel:ehe\n[]>accendia:zif you are a fucking idtion\n[]>narrator:we will now show evidence"
 						},
 						"facts": {
 							"fact_data_by_name": {
@@ -729,13 +821,13 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 6,
+						"meta.line_index": 8,
 						"meta.selector": {
 							"selected": false
 						}
 					},
 					{
-						"address": "0.7",
+						"address": "0.9",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -776,14 +868,14 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 7,
+						"meta.line_index": 9,
 						"meta.selector": {
 							"selected": false
 						}
 					}
 				],
 				"meta.address_mode_next": 0,
-				"meta.scroll_vertical": 767,
+				"meta.scroll_vertical": 987,
 				"meta.selected": false,
 				"next": 1.0,
 				"number": 0,
@@ -920,15 +1012,23 @@
 							"operand_key": "AND"
 						},
 						"content": {
-							"active_actors": [
-								"narrator",
-								"zif",
-								"pilot",
-								"sidsel",
-								"accendia"
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								1.0,
+								1.0,
+								1.0,
+								true,
+								"lidl",
+								"lidl"
 							],
-							"active_actors_title": "character",
-							"content": "[]>narrator:so after a while we get to a scene where accendia and sidsel go out to lidl to get food."
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "black_fade(1,1,1,true,lidl,lidl)",
+							"meta.validation_status": "OK",
+							"name": "black_fade",
+							"reverse_name": ""
 						},
 						"facts": {
 							"fact_data_by_name": {
@@ -937,7 +1037,7 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 0,
+						"line_type": 2,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
@@ -972,7 +1072,7 @@
 								"accendia"
 							],
 							"active_actors_title": "character",
-							"content": "[]>sidsel:LIDL TIMEEEEEE :333333<mp>YIPPEEEEEE >.<\n[]>accendia:[wave amp=50.0 freq=5.0 connected=1]sigh[/wave].\n[]>narrator:and then our glorious furry freak soldiers saunder on into the local Lidl"
+							"content": "[]>narrator:so after a while we get to a scene where accendia and sidsel go out to lidl to get food."
 						},
 						"facts": {
 							"fact_data_by_name": {
@@ -1016,7 +1116,7 @@
 								"accendia"
 							],
 							"active_actors_title": "character",
-							"content": "[]>accendia:so I totally forgot what we were supposed to get\n[]>sidsel:shit me 2"
+							"content": "[]>sidsel:LIDL TIMEEEEEE :333333<mp>YIPPEEEEEE >.<\n[]>accendia:[wave amp=50.0 freq=5.0 connected=1]sigh[/wave].\n[]>narrator:and then our glorious furry freak soldiers saunder on into the local Lidl"
 						},
 						"facts": {
 							"fact_data_by_name": {
@@ -1060,7 +1160,7 @@
 								"accendia"
 							],
 							"active_actors_title": "character",
-							"content": "[]>narrator:PH AND THEN THEY CALL THE OTHERS BECAUSE THEYRE STIPID IDTIOS"
+							"content": "[]>accendia:so I totally forgot what we were supposed to get\n[]>sidsel:shit me 2"
 						},
 						"facts": {
 							"fact_data_by_name": {
@@ -1081,6 +1181,50 @@
 					},
 					{
 						"address": "2.4",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
+							],
+							"active_actors_title": "character",
+							"content": "[]>narrator:PH AND THEN THEY CALL THE OTHERS BECAUSE THEYRE STIPID IDTIOS"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 4,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "2.5",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1122,13 +1266,61 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 4,
+						"meta.line_index": 5,
 						"meta.selector": {
 							"selected": false
 						}
 					},
 					{
-						"address": "2.5",
+						"address": "2.6",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								"lidl_jpg",
+								4.2
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "set_background(lidl_jpg,4.20)",
+							"meta.validation_status": "OK",
+							"name": "set_background",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 6,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "2.7",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1166,13 +1358,13 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 5,
+						"meta.line_index": 7,
 						"meta.selector": {
 							"selected": false
 						}
 					},
 					{
-						"address": "2.6",
+						"address": "2.8",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1210,13 +1402,13 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 6,
+						"meta.line_index": 8,
 						"meta.selector": {
 							"selected": false
 						}
 					},
 					{
-						"address": "2.7",
+						"address": "2.9",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1262,13 +1454,13 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 7,
+						"meta.line_index": 9,
 						"meta.selector": {
 							"selected": false
 						}
 					},
 					{
-						"address": "2.8",
+						"address": "2.10",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1306,7 +1498,7 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 8,
+						"meta.line_index": 10,
 						"meta.selector": {
 							"selected": false
 						}

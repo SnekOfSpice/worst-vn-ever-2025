@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b35ljnc4n6n31"
+path="res://.godot/imported/Jim Yosef - Eclipse [NCS Release].mp3-54a20c5454d2ac9bdcd5548404d069ee.mp3str"
+
+[deps]
+
+source_file="res://game/sounds/music/Jim Yosef - Eclipse [NCS Release].mp3"
+dest_files=["res://.godot/imported/Jim Yosef - Eclipse [NCS Release].mp3-54a20c5454d2ac9bdcd5548404d069ee.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
