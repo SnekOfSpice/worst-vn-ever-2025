@@ -85,3 +85,8 @@ func snuff_puppies() -> void:
 	for puppy in self.get_children():
 		self.remove_child(puppy)
 		puppy.queue_free()
+
+
+func _on_button_pressed():
+	$Button.text = _generate_puppy()
+	spawn_puppy()

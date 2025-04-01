@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://gmopbqtthj5o"]
+[gd_scene load_steps=3 format=3 uid="uid://gmopbqtthj5o"]
 
 [ext_resource type="Script" uid="uid://bhrw2uu4gg2i7" path="res://game/stages/puppy/puppy_attack.gd" id="1_nl3wp"]
+[ext_resource type="Theme" uid="uid://drk5fhsdjoewf" path="res://game/visuals/theme/diisis_theme.tres" id="2_r0pef"]
 
 [node name="PuppyAttack" type="Control"]
 layout_mode = 3
@@ -12,3 +13,12 @@ grow_vertical = 2
 mouse_filter = 2
 script = ExtResource("1_nl3wp")
 spawn_time = 0.2
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+theme = ExtResource("2_r0pef")
+text = "click for puppy"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

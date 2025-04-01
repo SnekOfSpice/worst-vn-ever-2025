@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://48if1ta8q67" path="res://game/stages/puppy/jiggle_text_effect.gd" id="1_0vqki"]
 [ext_resource type="Script" uid="uid://d4gm0ksvslckl" path="res://game/stages/puppy/puppy.gd" id="2_c5x5u"]
 
-[sub_resource type="RichTextEffect" id="RichTextEffect_c5x5u"]
+[sub_resource type="RichTextEffect" id="RichTextEffect_deud5"]
 script = ExtResource("1_0vqki")
 metadata/_custom_type_script = "uid://48if1ta8q67"
 
@@ -15,5 +15,5 @@ mouse_filter = 2
 theme_override_constants/outline_size = 10
 bbcode_enabled = true
 text = "=owo="
-custom_effects = [SubResource("RichTextEffect_c5x5u")]
+custom_effects = [SubResource("RichTextEffect_deud5")]
 script = ExtResource("2_c5x5u")
