@@ -16,6 +16,8 @@ signal start_show_cg(
 
 signal start_hide_cg(fade_out:float)
 signal start_rolling_credits()
+signal start_zif_blast()
+signal rubber()
 signal splatter(amount:int)
 signal start_chapter_cover(pov_name:String)
 signal request_show_evidence(id:String)
@@ -233,4 +235,16 @@ func set_stream(value : bool) -> bool:
 
 func show_evidence(_name : String) -> bool:
 	emit_signal("request_show_evidence", _name)
+	return true
+
+
+func rubber_band() -> bool:
+	Sound.play_sfx("rubber_band")
+	GameWorld.camera.apply_shake(5)
+	emit_signal("rubber")
+	return false
+
+
+func zif_blast() -> bool:
+	emit_signal("start_zif_blast")
 	return true

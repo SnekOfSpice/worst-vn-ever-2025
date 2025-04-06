@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"current_page_number": 0,
+		"current_page_number": 3,
 		"page_view": 0,
 		"text_size_id": 3
 	},
@@ -120,6 +120,10 @@
 				]
 			},
 			"roll_credits": {
+				"arg_types": [],
+				"args": []
+			},
+			"rubber_band": {
 				"arg_types": [],
 				"args": []
 			},
@@ -314,6 +318,10 @@
 					"shake_intensity",
 					"splatter_count"
 				]
+			},
+			"zif_blast": {
+				"arg_types": [],
+				"args": []
 			},
 			"zoom_to": {
 				"arg_types": [
@@ -624,7 +632,7 @@
 								"accendia"
 							],
 							"active_actors_title": "character",
-							"content": "[]>zif:Zif:“You all are joining me on the “4 DAY VISUAL NOVEL CHALLENGE””\n[]>pilot: “its. it’s just a jam bro. wtf are you talking about. and it’s 3 days”\n[]>zif:bro\n[]>pilot:bro\n[]>zif:ok so anyways! Zifnation! What is up!! Today we are attempting to make a VISUAL NOVEL in 3 DAYS!\n[]>zif:AND to ACCOMPLISH this INSANE CHALLENGE i have FORCED my IDIOT FRIENDS to work with me!!!!!"
+							"content": "[]>zif:Zif:“You all are joining me on the “4 DAY VISUAL NOVEL CHALLENGE””\n[]>pilot: “its. just a jam bro. wtf are you talking about. and it’s 3 days”\n[]>zif:bro\n[]>pilot:bro\n[]>zif:ok so anyways! Zifnation! What is up!! Today we are attempting to make a VISUAL NOVEL in 3 DAYS!\n[]>zif:AND to ACCOMPLISH this INSANE CHALLENGE i have FORCED my IDIOT FRIENDS to work with me!!!!!"
 						},
 						"facts": {
 							"fact_data_by_name": {
@@ -875,7 +883,7 @@
 					}
 				],
 				"meta.address_mode_next": 0,
-				"meta.scroll_vertical": 987,
+				"meta.scroll_vertical": 600,
 				"meta.selected": false,
 				"next": 1.0,
 				"number": 0,
@@ -893,7 +901,7 @@
 					{
 						"address": "1.0",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -902,7 +910,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -924,12 +932,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 0.0,
+						"line_type": 0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0.0,
+						"meta.line_index": 0,
 						"meta.selector": {
 							"selected": false
 						}
@@ -937,7 +945,7 @@
 					{
 						"address": "1.1",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -946,7 +954,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -968,22 +976,66 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 0.0,
+						"line_type": 0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 1.0,
+						"meta.line_index": 1,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "1.2",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
+							],
+							"active_actors_title": "character",
+							"content": "[]>zif: ok sidsel I will be real with you\n[]>zif: that's HECKIN idiotic\n[]>pilot: what if they're cooking tho?\n[]>sidsel: ehehehe\n[]>sidsel: cookin wif fiah\n[]>pilot: I think it could be fun\n[]>sidsel: heat fwom fiah, fiah fwom heat :3\n[]>pilot: you go girl\n[]>sidsel: hehe.... heat >.<\n[]>zif: Woah! This is NOT family friendly\n[]>pilot: shut the fuck up\n[]>sidsel: YEAH!!!!!\n[]>pilot: Come up with a better idea. Zif.\n[]>zif: Uhm... what about a cute girl in the alps trying to solve the disappearance of the local cat?\n[]>sidsel: nyo :3c\n[]>zif: Why wouldn't you want a cute cozy adventure?\n[]>sidsel: bcuz it sux\n[]>sidsel: it stifles cweativity\n[]>sidsel: meow\n[]>pilot: agree.\n[]>pilot: I wanna make a dating sim. haven't done one ever.\n[]>pilot: we could have the mech as a datable character.\n[]>zif: This will attract a BUNCH of FREAKS\n[]>pilot: exactly.\n[]>sidsel: girls love their mechs ewe\n[]>narrator: and thus zif got ignored, sidsel gets to write fanfiction, and pilot gets to put needless levels of detail about mech construction into the vn. <mp> lovely."
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 2,
 						"meta.selector": {
 							"selected": false
 						}
 					}
 				],
-				"meta.address_mode_next": 0.0,
-				"meta.scroll_vertical": 0.0,
+				"meta.address_mode_next": 0,
+				"meta.scroll_vertical": 96,
 				"meta.selected": false,
 				"next": 2.0,
-				"number": 1.0,
+				"number": 1,
 				"page_key": "The gang struggles to come up with a game idea",
 				"terminate": false
 			},
@@ -997,6 +1049,260 @@
 				"lines": [
 					{
 						"address": "2.0",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								2.0,
+								2.0,
+								2.0,
+								true,
+								"living_room",
+								"none"
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "black_fade(2,2,2,true,living_room,none)",
+							"meta.validation_status": "OK",
+							"name": "black_fade",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "2.1",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								"zif",
+								"neutral"
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "set_emotion(zif, neutral)",
+							"meta.validation_status": "OK",
+							"name": "set_emotion",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 1,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "2.2",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								"sidsel",
+								"neutral"
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "set_emotion(sidsel, neutral)",
+							"meta.validation_status": "OK",
+							"name": "set_emotion",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 2,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "2.3",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
+							],
+							"active_actors_title": "character",
+							"content": "[]>sidsel: <call:rubber_band> hey idiot\n[]>narrator: sidsel misses\n[]>zif: ...\n[]>sidsel: <call:rubber_band> hey... idiot...\n[]>narrator: she misses again\n[]>sidsel: hmmrf... <call:rubber_band>\n[]>zif: What the heck was that?\n[]>sidsel: ehehehe\n[]>narrator: the cat has found a bag of rubber bands. <mp>torment ensues. <call:rubber_band>\n[]>zif: YOU'RE NOT EVEN TRYING TO HIDE IT!\n[]>sidsel: <call:rubber_band>plink. \n[]>zif: STOP HITTING MY FOREHEAD\n[]>sidsel: why? :3€\n[]>zif: ????\n[]>zif: BECAUSE YOU'RE NOT SUPPOSED TO DO THAT\n[]>sidsel: its fun tho\n[]>sidsel: you make for a good target sixhead.\n[]>zif: [sigh]\n[]>zif: whatever.\n[]>zif: [rainbow freq=1.0 sat=0.8 val=0.8 speed=1.0]A Thousand Delusions.[/rainbow]."
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 3,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "2.4",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "zif_blast()",
+							"meta.validation_status": "OK",
+							"name": "zif_blast",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 4,
+						"meta.selector": {
+							"selected": false
+						}
+					}
+				],
+				"meta.address_mode_next": 0,
+				"meta.scroll_vertical": 499,
+				"meta.selected": false,
+				"next": 3.0,
+				"number": 2,
+				"page_key": "rubber bands",
+				"terminate": false
+			},
+			"3": {
+				"facts": {
+					"fact_data_by_name": {
+
+					},
+					"meta.visible": false
+				},
+				"lines": [
+					{
+						"address": "3.0",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1048,7 +1354,7 @@
 						}
 					},
 					{
-						"address": "2.1",
+						"address": "3.1",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1092,7 +1398,7 @@
 						}
 					},
 					{
-						"address": "2.2",
+						"address": "3.2",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1136,7 +1442,7 @@
 						}
 					},
 					{
-						"address": "2.3",
+						"address": "3.3",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1180,7 +1486,7 @@
 						}
 					},
 					{
-						"address": "2.4",
+						"address": "3.4",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1224,7 +1530,7 @@
 						}
 					},
 					{
-						"address": "2.5",
+						"address": "3.5",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1272,7 +1578,7 @@
 						}
 					},
 					{
-						"address": "2.6",
+						"address": "3.6",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1320,7 +1626,7 @@
 						}
 					},
 					{
-						"address": "2.7",
+						"address": "3.7",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1364,7 +1670,7 @@
 						}
 					},
 					{
-						"address": "2.8",
+						"address": "3.8",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1408,7 +1714,7 @@
 						}
 					},
 					{
-						"address": "2.9",
+						"address": "3.9",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1460,7 +1766,7 @@
 						}
 					},
 					{
-						"address": "2.10",
+						"address": "3.10",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1507,12 +1813,12 @@
 				"meta.address_mode_next": 0,
 				"meta.scroll_vertical": 0,
 				"meta.selected": false,
-				"next": 3.0,
-				"number": 2,
+				"next": 4.0,
+				"number": 3,
 				"page_key": "lidl",
 				"terminate": false
 			},
-			"3": {
+			"4": {
 				"facts": {
 					"fact_data_by_name": {
 
@@ -1521,9 +1827,9 @@
 				},
 				"lines": [
 					{
-						"address": "2.0",
+						"address": "4.0",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -1532,7 +1838,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -1559,20 +1865,20 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 2.0,
+						"line_type": 2,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0.0,
+						"meta.line_index": 0,
 						"meta.selector": {
 							"selected": false
 						}
 					},
 					{
-						"address": "2.1",
+						"address": "4.1",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -1581,7 +1887,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -1603,23 +1909,23 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 0.0,
+						"line_type": 0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 1.0,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						}
 					}
 				],
-				"meta.address_mode_next": 1.0,
-				"meta.scroll_vertical": 0.0,
+				"meta.address_mode_next": 1,
+				"meta.scroll_vertical": 0,
 				"meta.selected": false,
 				"next": 0.0,
-				"number": 3.0,
-				"page_key": "",
+				"number": 4,
+				"page_key": "ending",
 				"terminate": true
 			}
 		},

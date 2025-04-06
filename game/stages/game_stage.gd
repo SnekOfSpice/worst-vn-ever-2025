@@ -551,3 +551,28 @@ func _on_instruction_handler_request_show_evidence(id: String) -> void:
 		randi_range(208, 511),
 		randi_range(181, 454),
 	)
+
+
+func _on_instruction_handler_rubber() -> void:
+	var s = Sprite2D.new()
+	s.texture = load("res://game/stages/rubber_band.png")
+	find_child("VNUIRoot").add_child(s)
+	s.scale.x = 0.25 + randf_range(-0.05, 0.05)
+	s.scale.y = 0.25 + randf_range(-0.05, 0.05)
+	s.position = find_child("VNUIRoot").size * 0.5 + Vector2(randi_range(-20, 20), randi_range(-20, 20))
+	var t = get_tree().create_timer(1)
+	t.timeout.connect(s.queue_free)
+
+
+func _on_instruction_handler_start_zif_blast() -> void:
+	Sound.play_sfx("zif_blast")
+	for i in 50:
+		Sound.play_sfx("zif_image")
+		var zif := preload("res://game/stages/zif_image.tscn").instantiate()
+		find_child("VNUIRoot").add_child(zif)
+		zif.position = Vector2(
+			randf_range(0, find_child("VNUIRoot").size.x),
+			randf_range(0, find_child("VNUIRoot").size.y),
+		)
+		await get_tree().create_timer(0.05).timeout
+	Parser.line_reader.instruction_handler.instruction_completed.emit()

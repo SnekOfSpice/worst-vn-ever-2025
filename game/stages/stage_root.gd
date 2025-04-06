@@ -48,7 +48,7 @@ func set_screen(screen_path:String, payload := {}):
 func set_background(background:String, fade_time:=0.0):
 	if background == "none" or background == "null" or background.is_empty():
 		background = GameWorld.background
-	var path = str(CONST.BACKGROUND_ROOT, CONST.get(str("BACKGROUND_", background.to_upper())))
+	var path = CONST.fetch("BACKGROUND", background)
 	if not path:
 		push_warning(str("COULDN'T FIND BACKGROUND ", background, "!"))
 		return

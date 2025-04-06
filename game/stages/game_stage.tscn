@@ -729,11 +729,6 @@ input_prompt_lerp_weight = 0.233
 prompt_unfinished = NodePath("../Camera2D/CanvasLayer/VNUIRoot/VNUI/TextContainer1/MarginContainer/VBoxContainer/HBoxContainer/PageUnfinished")
 prompt_finished = NodePath("../Camera2D/CanvasLayer/VNUIRoot/VNUI/TextContainer1/MarginContainer/VBoxContainer/HBoxContainer/PageFinished")
 inline_name_space_prefix = false
-warn_advance_on_parser_paused = null
-warn_advance_on_input_locked = null
-warn_advance_on_terminated = null
-warn_advance_on_auto_continue = null
-warn_advance_on_choices_presented = null
 
 [node name="InlineEval" type="Node" parent="."]
 script = ExtResource("6_8ao3j")
@@ -757,9 +752,11 @@ script = ExtResource("6_8ao3j")
 [connection signal="pressed" from="Camera2D/CanvasLayer/VNUIRoot/VBoxContainer/DrugzButton" to="." method="_on_drugz_button_pressed"]
 [connection signal="request_object_visible" from="InstructionHandler" to="Objects" method="set_object_visible"]
 [connection signal="request_show_evidence" from="InstructionHandler" to="." method="_on_instruction_handler_request_show_evidence"]
+[connection signal="rubber" from="InstructionHandler" to="." method="_on_instruction_handler_rubber"]
 [connection signal="splatter" from="InstructionHandler" to="." method="_on_instruction_handler_splatter"]
 [connection signal="start_black_fade" from="InstructionHandler" to="Camera2D/CanvasLayer/VNUIRoot/BlackFade" method="_on_handler_start_black_fade"]
 [connection signal="start_hide_cg" from="InstructionHandler" to="." method="hide_cg"]
 [connection signal="start_rolling_credits" from="InstructionHandler" to="Camera2D/CanvasLayer/VNUIRoot/RollingCredits" method="start"]
 [connection signal="start_show_cg" from="InstructionHandler" to="." method="_on_handler_start_show_cg"]
+[connection signal="start_zif_blast" from="InstructionHandler" to="." method="_on_instruction_handler_start_zif_blast"]
 [connection signal="sun" from="InstructionHandler" to="." method="_on_instruction_handler_sun"]

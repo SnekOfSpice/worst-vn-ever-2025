@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://jimar5v4pk1v"]
+
+[ext_resource type="Script" uid="uid://b7xs36jd1xl17" path="res://game/stages/zif_image.gd" id="1_4dqiv"]
+
+[node name="ZifImage" type="Sprite2D"]
+script = ExtResource("1_4dqiv")
