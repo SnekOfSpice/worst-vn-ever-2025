@@ -11,6 +11,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
+theme = ExtResource("2_r0pef")
 script = ExtResource("1_nl3wp")
 spawn_time = 0.2
 
@@ -18,7 +19,7 @@ spawn_time = 0.2
 layout_mode = 0
 offset_right = 8.0
 offset_bottom = 8.0
-theme = ExtResource("2_r0pef")
+focus_mode = 0
 text = "click for puppy"
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
