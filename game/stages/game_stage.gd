@@ -500,18 +500,13 @@ func set_stream(value:bool):
 	find_child("StreamOverlay").visible = value
 	find_child("TextContainer1").visible = not value
 	if value:
-		$LineReader.past_text_container = find_child("StreamOverlay").find_child("ChatLog")
-		$LineReader.name_style = LineReader.NameStyle.Prepend
-		var switch_text:bool = $LineReader.text_content == find_child("TextContainer1").find_child("RichTextLabel")
-		$LineReader.text_content = find_child("StreamOverlay").find_child("ChatLabel")
-		if switch_text:
-			$LineReader.text_content.text = find_child("TextContainer1").find_child("RichTextLabel").text
+		$LineReader.enable_past_lines(
+			find_child("StreamOverlay").find_child("ChatLog"),
+			find_child("StreamOverlay").find_child("ChatLabel")
+		)
 	else:
 		$LineReader.name_style = LineReader.NameStyle.NameLabel
-		var switch_text:bool = $LineReader.text_content == find_child("StreamOverlay").find_child("ChatLabel")
-		$LineReader.text_content = find_child("TextContainer1").find_child("RichTextLabel")
-		if switch_text:
-			$LineReader.text_content.text = find_child("StreamOverlay").find_child("ChatLabel").text
+		$LineReader.set_text_content(find_child("TextContainer1").find_child("RichTextLabel"))
 	
 func set_fade_out(lod:float, mix:float):
 	target_lod = lod

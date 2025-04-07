@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"current_page_number": 3,
+		"current_page_number": 0,
 		"page_view": 0,
 		"text_size_id": 3
 	},
@@ -676,7 +676,7 @@
 								"accendia"
 							],
 							"active_actors_title": "character",
-							"content": "[]>narrator:INSERT MORE STREAM??\n[]>zif:JOIN us TOMORROW when we GO into DAY TWO of the VISUAL NOVEL 3 DAY CHALLENGE CHALLENGE day 2"
+							"content": "[]>pilot:bro fuck you.\n[]>zif:Shush. <mp>Family friendly.\n[]>sidsel:oh my gyatt\n[]>zif:LIVE CAT REACTION??!???\n[]>sidsel: nya :3c\n[]>narrator:And so the stream keeps happening. Donations come in. Zif calls out gamersupps or some shit.\n[]>narrator:They do not get any work done on the visual novel they're supposed to be working on rn."
 						},
 						"facts": {
 							"fact_data_by_name": {
@@ -815,7 +815,7 @@
 								"accendia"
 							],
 							"active_actors_title": "character",
-							"content": "[]>zif:Awesome stream everyone\n[]>sidsel:ehe\n[]>accendia:zif you are a fucking idtion\n[]>narrator:we will now show evidence"
+							"content": "[]>zif:Awesome stream everyone\n[]>sidsel:ehe\n[]>pilot:zif you are a fucking idtiot. This was kinda a mess.\n[]>pilot:We dont even have a game idea yet bro."
 						},
 						"facts": {
 							"fact_data_by_name": {
@@ -833,57 +833,10 @@
 						"meta.selector": {
 							"selected": false
 						}
-					},
-					{
-						"address": "0.9",
-						"conditionals": {
-							"behavior": 0,
-							"behavior_key": "Show",
-							"facts": {
-								"fact_data_by_name": {
-
-								},
-								"meta.visible": false
-							},
-							"meta.visible": false,
-							"operand": 0,
-							"operand_args": [],
-							"operand_key": "AND"
-						},
-						"content": {
-							"delay_after": 0.0,
-							"delay_before": 0.0,
-							"line_reader.args": [
-								"yuri"
-							],
-							"line_reader.reverse_args": [],
-							"meta.has_reverse": false,
-							"meta.reverse_text": "",
-							"meta.text": "show_evidence(yuri)",
-							"meta.validation_status": "OK",
-							"name": "show_evidence",
-							"reverse_name": ""
-						},
-						"facts": {
-							"fact_data_by_name": {
-
-							},
-							"meta.visible": false
-						},
-						"header": [],
-						"line_type": 2,
-						"meta.conditionals_visible": false,
-						"meta.facts_visible": false,
-						"meta.indent_level": 0,
-						"meta.is_head_editable": true,
-						"meta.line_index": 9,
-						"meta.selector": {
-							"selected": false
-						}
 					}
 				],
 				"meta.address_mode_next": 0,
-				"meta.scroll_vertical": 600,
+				"meta.scroll_vertical": 1042,
 				"meta.selected": false,
 				"next": 1.0,
 				"number": 0,
@@ -923,7 +876,7 @@
 								"accendia"
 							],
 							"active_actors_title": "character",
-							"content": "[]>narrator:The gang struggles to come up with a game idea"
+							"content": "[]>narrator: it is then that accendia stumbles out of her bedroom. the gecko is part of the flatshare with the other 3, but notably. not part of the team herself.\n[]>accendia: Hi\n[]>zif: Whats up Accendia???\n[]>sidsel: hi faggot :3 (<-- may or may not have made put the night before)\n[]>accendia: Fuck\n[]>pilot: morning \n[]>pilot: did you remember to buy things so we don't starve during the jam?\n[]>accendia:...<mp>FUCK\n[]>pilot: ok so that's gonna be something to take care of soon\n[]>sidsel: yeag "
 						},
 						"facts": {
 							"fact_data_by_name": {
@@ -967,6 +920,111 @@
 								"accendia"
 							],
 							"active_actors_title": "character",
+							"content": "[]>zif:anyways GANG, what the heck is the motherflippin verdict on this sauce?\n[]>pilot:...\n[]>sidsel:hmmm\n[]>sidsel:i'unno"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 1,
+						"meta.selector": {
+							"selected": false
+						}
+					}
+				],
+				"meta.address_mode_next": 0,
+				"meta.scroll_vertical": 0,
+				"meta.selected": false,
+				"next": 2.0,
+				"number": 1,
+				"page_key": "accendia stumbles onto the scene",
+				"terminate": false
+			},
+			"2": {
+				"facts": {
+					"fact_data_by_name": {
+
+					},
+					"meta.visible": false
+				},
+				"lines": [
+					{
+						"address": "2.0",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
+							],
+							"active_actors_title": "character",
+							"content": "[]>narrator:The gang struggles to come up with a game idea\n[]>narrator:Like... holy shit these fuckers are inept.\n[]>sidsel:HEY\n[]>narrator:sorry.\n[]>narrator:ill go back behind the 4th wall again uwu\n[]>sidsel:GOOD\n[]>pilot:what are you screaming for\n[]>sidsel:oh nyathin :3"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "2.1",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia"
+							],
+							"active_actors_title": "character",
 							"content": "[]>sidsel:what about a mating sim :3c\\nI mean dating sim >~<"
 						},
 						"facts": {
@@ -987,7 +1045,7 @@
 						}
 					},
 					{
-						"address": "1.2",
+						"address": "2.2",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1032,14 +1090,14 @@
 					}
 				],
 				"meta.address_mode_next": 0,
-				"meta.scroll_vertical": 96,
+				"meta.scroll_vertical": 0,
 				"meta.selected": false,
-				"next": 2.0,
-				"number": 1,
+				"next": 3.0,
+				"number": 2,
 				"page_key": "The gang struggles to come up with a game idea",
 				"terminate": false
 			},
-			"2": {
+			"3": {
 				"facts": {
 					"fact_data_by_name": {
 
@@ -1288,12 +1346,12 @@
 				"meta.address_mode_next": 0,
 				"meta.scroll_vertical": 499,
 				"meta.selected": false,
-				"next": 3.0,
-				"number": 2,
+				"next": 4.0,
+				"number": 3,
 				"page_key": "rubber bands",
 				"terminate": false
 			},
-			"3": {
+			"4": {
 				"facts": {
 					"fact_data_by_name": {
 
@@ -1811,14 +1869,14 @@
 					}
 				],
 				"meta.address_mode_next": 0,
-				"meta.scroll_vertical": 0,
+				"meta.scroll_vertical": 1799,
 				"meta.selected": false,
-				"next": 4.0,
-				"number": 3,
+				"next": 5.0,
+				"number": 4,
 				"page_key": "lidl",
 				"terminate": false
 			},
-			"4": {
+			"5": {
 				"facts": {
 					"fact_data_by_name": {
 
@@ -1829,7 +1887,7 @@
 					{
 						"address": "4.0",
 						"conditionals": {
-							"behavior": 0,
+							"behavior": 0.0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -1838,7 +1896,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0,
+							"operand": 0.0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -1865,12 +1923,12 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 2,
+						"line_type": 2.0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0,
+						"meta.indent_level": 0.0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0,
+						"meta.line_index": 0.0,
 						"meta.selector": {
 							"selected": false
 						}
@@ -1878,7 +1936,7 @@
 					{
 						"address": "4.1",
 						"conditionals": {
-							"behavior": 0,
+							"behavior": 0.0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -1887,7 +1945,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0,
+							"operand": 0.0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -1909,22 +1967,22 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 0,
+						"line_type": 0.0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0,
+						"meta.indent_level": 0.0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 1,
+						"meta.line_index": 1.0,
 						"meta.selector": {
 							"selected": false
 						}
 					}
 				],
-				"meta.address_mode_next": 1,
-				"meta.scroll_vertical": 0,
+				"meta.address_mode_next": 1.0,
+				"meta.scroll_vertical": 0.0,
 				"meta.selected": false,
 				"next": 0.0,
-				"number": 4,
+				"number": 5,
 				"page_key": "ending",
 				"terminate": true
 			}

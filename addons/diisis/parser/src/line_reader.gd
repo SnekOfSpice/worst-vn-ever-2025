@@ -413,7 +413,7 @@ func deserialize(data: Dictionary):
 		build_choices(choices, auto_switch)
 	
 	update_name_label(data.get("current_raw_name", "" if blank_names.is_empty() else blank_names.front()))
-	set_text_content_text(data.get("text_content.text", ""))
+	_set_text_content_text(data.get("text_content.text", ""))
 
 # typed dictionaries don't survive saving to json so we need this
 func set_name_map(map:Dictionary):
@@ -1356,7 +1356,7 @@ func read_next_chunk():
 			l += 1
 	
 	var old_text = text_content.text
-	set_text_content_text(cleaned_text)
+	_set_text_content_text(cleaned_text)
 	ParserEvents.text_content_text_changed.emit(old_text, cleaned_text, lead_time)
 	ParserEvents.notify_string_positions.emit(notify_positions)
 
@@ -1417,7 +1417,7 @@ func _emit_comment(comment_position:int):
 	ParserEvents.comment.emit(text, comment_position)
 	comments.erase(comment_position)
 
-func set_text_content_text(text: String):
+func _set_text_content_text(text: String):
 	if keep_past_lines:
 		if max_past_lines > -1:
 			var child_count := past_text_container.get_child_count()
@@ -1464,6 +1464,24 @@ func set_text_content_text(text: String):
 
 func set_visible_characters(value: int):
 	text_content.visible_characters = min(value, text_content.get_parsed_text().length())
+
+## Sets [param text_content]. If [param keep_text] is [code]true[/code], the text from the previous [param text_content] will be transferred to the passed argument.
+func set_text_content(new_text_content:RichTextLabel, keep_text := true):
+	var switch_text:bool = text_content != new_text_content
+	var old_text : String
+	if switch_text and keep_text:
+		old_text = text_content.text
+	text_content = new_text_content
+	if switch_text and keep_text:
+		text_content.text = old_text
+
+## Helper function that you can use to switch [param keep_past_lines] to true and transfer all data to the [param new_label]. [param new_label] becomes [param text_content].
+func enable_past_lines(past_text_container: VBoxContainer, new_label:RichTextLabel, name_style := NameStyle.Prepend):
+	keep_past_lines = true
+	self.past_text_container = past_text_container
+	self.name_style = name_style
+	set_text_content(new_label)
+		
 
 func find_next_pause():
 	if pause_types.size() > 0 and next_pause_position_index < pause_types.size():
