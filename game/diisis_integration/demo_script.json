@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"current_page_number": 0,
+		"current_page_number": 6,
 		"page_view": 0,
 		"text_size_id": 3
 	},
@@ -17,7 +17,8 @@
 				"zif",
 				"pilot",
 				"sidsel",
-				"accendia"
+				"accendia",
+				"s+z"
 			]
 		},
 		"empty_strings_for_l10n": false,
@@ -836,7 +837,7 @@
 					}
 				],
 				"meta.address_mode_next": 0,
-				"meta.scroll_vertical": 1042,
+				"meta.scroll_vertical": 1080,
 				"meta.selected": false,
 				"next": 1.0,
 				"number": 0,
@@ -1090,7 +1091,7 @@
 					}
 				],
 				"meta.address_mode_next": 0,
-				"meta.scroll_vertical": 0,
+				"meta.scroll_vertical": 277,
 				"meta.selected": false,
 				"next": 3.0,
 				"number": 2,
@@ -1106,7 +1107,7 @@
 				},
 				"lines": [
 					{
-						"address": "2.0",
+						"address": "3.0",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1158,7 +1159,7 @@
 						}
 					},
 					{
-						"address": "2.1",
+						"address": "3.1",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1206,7 +1207,7 @@
 						}
 					},
 					{
-						"address": "2.2",
+						"address": "3.2",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1254,7 +1255,7 @@
 						}
 					},
 					{
-						"address": "2.3",
+						"address": "3.3",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1298,7 +1299,7 @@
 						}
 					},
 					{
-						"address": "2.4",
+						"address": "3.4",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1344,7 +1345,7 @@
 					}
 				],
 				"meta.address_mode_next": 0,
-				"meta.scroll_vertical": 499,
+				"meta.scroll_vertical": 190,
 				"meta.selected": false,
 				"next": 4.0,
 				"number": 3,
@@ -1360,7 +1361,7 @@
 				},
 				"lines": [
 					{
-						"address": "3.0",
+						"address": "4.0",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1412,7 +1413,7 @@
 						}
 					},
 					{
-						"address": "3.1",
+						"address": "4.1",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1456,7 +1457,7 @@
 						}
 					},
 					{
-						"address": "3.2",
+						"address": "4.2",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1500,7 +1501,7 @@
 						}
 					},
 					{
-						"address": "3.3",
+						"address": "4.3",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1544,7 +1545,7 @@
 						}
 					},
 					{
-						"address": "3.4",
+						"address": "4.4",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1588,7 +1589,7 @@
 						}
 					},
 					{
-						"address": "3.5",
+						"address": "4.5",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1636,7 +1637,7 @@
 						}
 					},
 					{
-						"address": "3.6",
+						"address": "4.6",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1684,7 +1685,7 @@
 						}
 					},
 					{
-						"address": "3.7",
+						"address": "4.7",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1728,7 +1729,7 @@
 						}
 					},
 					{
-						"address": "3.8",
+						"address": "4.8",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1772,7 +1773,7 @@
 						}
 					},
 					{
-						"address": "3.9",
+						"address": "4.9",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1824,7 +1825,7 @@
 						}
 					},
 					{
-						"address": "3.10",
+						"address": "4.10",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1869,7 +1870,7 @@
 					}
 				],
 				"meta.address_mode_next": 0,
-				"meta.scroll_vertical": 1799,
+				"meta.scroll_vertical": 749,
 				"meta.selected": false,
 				"next": 5.0,
 				"number": 4,
@@ -1885,9 +1886,9 @@
 				},
 				"lines": [
 					{
-						"address": "4.0",
+						"address": "5.0",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -1896,7 +1897,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -1923,20 +1924,20 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 2.0,
+						"line_type": 2,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0.0,
+						"meta.line_index": 0,
 						"meta.selector": {
 							"selected": false
 						}
 					},
 					{
-						"address": "4.1",
+						"address": "5.1",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -1945,7 +1946,7 @@
 								"meta.visible": false
 							},
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -1967,23 +1968,1405 @@
 							"meta.visible": false
 						},
 						"header": [],
-						"line_type": 0.0,
+						"line_type": 0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 1.0,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						}
 					}
 				],
-				"meta.address_mode_next": 1.0,
-				"meta.scroll_vertical": 0.0,
+				"meta.address_mode_next": 1,
+				"meta.scroll_vertical": 0,
 				"meta.selected": false,
 				"next": 0.0,
 				"number": 5,
 				"page_key": "ending",
+				"terminate": true
+			},
+			"6": {
+				"facts": {
+					"fact_data_by_name": {
+
+					},
+					"meta.visible": false
+				},
+				"lines": [
+					{
+						"address": "6.0",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								"pilot",
+								"neutral"
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "set_emotion(pilot, neutral)",
+							"meta.validation_status": "OK",
+							"name": "set_emotion",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "6.1",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								"sidsel",
+								"neutral"
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "set_emotion(sidsel, neutral)",
+							"meta.validation_status": "OK",
+							"name": "set_emotion",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 1,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "6.2",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia",
+								"s+z"
+							],
+							"active_actors_title": "character",
+							"content": "[]>pilot: hey, i've been taking a look at your designs so far-\n[]>sidsel: What about them?\n[]>pilot: they're drawn well, don't get me wrong, but they're kinda... \"similar\" to some fairly popular characters, not gonna lie\n[]>sidsel: Really meow? What makes you say that?"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 2,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "6.3",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								"INVALID ARGUMENT FOR id"
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "show_evidence()",
+							"meta.validation_status": "Argument 1 is empty",
+							"name": "show_evidence",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 3,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "6.4",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia",
+								"s+z"
+							],
+							"active_actors_title": "character",
+							"content": "[]>pilot: kinda everything\n[]>pilot: it's basically the same clothes, same hair and even the same face\n[]>sidsel: You told me to be quick about it, so I based it off of characters I know.\n[]>pilot: that's fine and i don't want you to just completely scrap it either\n[]>pilot: just differentiating them from the source a little more would be nice\n[]>sidsel: A'ight bruh."
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 4,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "6.5",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia",
+								"s+z"
+							],
+							"active_actors_title": "character",
+							"content": "[]>TRANSITION HERE OF SOME KIND"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 5,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "6.6",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia",
+								"s+z"
+							],
+							"active_actors_title": "character",
+							"content": "[]>sidsel: Whaddup, I got your new design ready-"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 6,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "6.7",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								"INVALID ARGUMENT FOR id"
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "show_evidence()",
+							"meta.validation_status": "Argument 1 is empty",
+							"name": "show_evidence",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 7,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "6.8",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia",
+								"s+z"
+							],
+							"active_actors_title": "character",
+							"content": "[]>pilot: are you kidding me, this is almost the exact fucking same\n[]>sidsel: That's cap brewski, I added a skateboard, sunglasses and recoloured the shirt.\n[]>sidsel: It's essentially a completely different person.\n[]>pilot: but that doesn't change anything about the basic design\n[]>pilot: so no, it's the same person wearing different clothes\n[]>pilot: please, can you just, try one more time\n[]>sidsel: Fine. But it had better be appreciated, on jah.\n[]>"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 8,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "6.9",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia",
+								"s+z"
+							],
+							"active_actors_title": "character",
+							"content": "[]>TRANSITION OF SOME KIND HERE"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 9,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "6.10",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia",
+								"s+z"
+							],
+							"active_actors_title": "character",
+							"content": "[]>sidsel: I got your new design and it better be final, I swear.\n[]>pilot: i hope so too, yknow"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 10,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "6.11",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								"INVALID ARGUMENT FOR id"
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "show_evidence()",
+							"meta.validation_status": "Argument 1 is empty",
+							"name": "show_evidence",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 11,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "6.12",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia",
+								"s+z"
+							],
+							"active_actors_title": "character",
+							"content": "[]>pilot: you know, i didn't really expect anything\n[]>pilot: but this is amazing\n[]>pilot: it's like the resemblance to the original character has completely vanished\n[]>sidsel: Damn right it has.\n[]>sidsel: Busted out all the tricks I keep hidden.\n[]>sidsel: All of them."
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 12,
+						"meta.selector": {
+							"selected": false
+						}
+					}
+				],
+				"meta.address_mode_next": 0,
+				"meta.scroll_vertical": 208,
+				"meta.selected": false,
+				"next": 5.0,
+				"number": 6,
+				"page_key": "beagle puss",
+				"terminate": true
+			},
+			"7": {
+				"facts": {
+					"fact_data_by_name": {
+
+					},
+					"meta.visible": false
+				},
+				"lines": [
+					{
+						"address": "7.0",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								"zif",
+								"neutral"
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "set_emotion(zif, neutral)",
+							"meta.validation_status": "OK",
+							"name": "set_emotion",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "7.1",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								"pilot",
+								"neutral"
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "set_emotion(pilot, neutral)",
+							"meta.validation_status": "OK",
+							"name": "set_emotion",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 1,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "7.2",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia",
+								"s+z"
+							],
+							"active_actors_title": "character",
+							"content": "[]>pilot: zif i need to talk to you\n[]>pilot: you've been using git, right\n[]>zif: Of course! As you instructed.\n[]>pilot: well, i doubt that because that's exactly what i need to talk to you about\n[]>pilot: what is this"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 2,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "7.3",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								"INVALID ARGUMENT FOR id"
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "show_evidence()",
+							"meta.validation_status": "Argument 1 is empty",
+							"name": "show_evidence",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 3,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "7.4",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia",
+								"s+z"
+							],
+							"active_actors_title": "character",
+							"content": "[]>zif: That would have to be a screenshot of my commits, I reckon.\n[]>pilot: correct, but can you explain to me why it looks this way??\n[]>pilot: what do you need all these branches for\n[]>pilot: why do so many of them only have like a single commit with one changed file\n[]>pilot: this is absolute nonsense, what possible use could there be for all this\n[]>zif: Oh I thought it quite simple really.\n[]>zif: Each of these branches represents a different timeline of sorts, with steps to be taken.\n[]>zif: It's something you sadly could not be aware of, but my awakened mind can see it.\n[]>zif: Trust me, without any of these branches, I doubt we will see this project to completion!\n[]>pilot: we would be closer to completion if you had spent that time with actual commits or work\n[]>pilot: how does this help us exactly\n[]>zif: Well, you asked, so- Each of those branches represents a foundational block of our future.\n[]>zif: It's safe to say, without my tireless efforts, we would be destined for failure.\n[]>zif: I have prepared our way forward, by seeding the-\n[]>pilot: let me stop you there\n[]>pilot: aight, cool, you did that\n[]>pilot: when are you gonna finish writing out that next scene though\n[]>zif: Hard to say with- with so much groundwork yet to be done.\n[]>zif: I see a plethora of unattended branches in my mind's eye!\n[]>pilot: i mostly see unwritten scenes, would it kill you to at least finish one or two before you get back to doing your \"preparation\"?\n[]>zif: If you're ready to bear the potential consequences of this transgression against causal nature, yes.\n[]>pilot: i think i can live with that\n[]>pilot: woe is me and all that"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 4,
+						"meta.selector": {
+							"selected": false
+						}
+					}
+				],
+				"meta.address_mode_next": 0,
+				"meta.scroll_vertical": 540,
+				"meta.selected": false,
+				"next": 5.0,
+				"number": 7,
+				"page_key": "timeline shenanigans",
+				"terminate": true
+			},
+			"8": {
+				"facts": {
+					"fact_data_by_name": {
+
+					},
+					"meta.visible": false
+				},
+				"lines": [
+					{
+						"address": "8.0",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								"pilot",
+								"neutral"
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "set_emotion(pilot, neutral)",
+							"meta.validation_status": "OK",
+							"name": "set_emotion",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "8.1",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								"sidsel",
+								"neutral"
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "set_emotion(sidsel, neutral)",
+							"meta.validation_status": "OK",
+							"name": "set_emotion",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 1,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "8.2",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia",
+								"s+z"
+							],
+							"active_actors_title": "character",
+							"content": "[]>pilot: i know we had a conversation about this earlier, to some degree\n[]>pilot: let me get straight to the point, your design for the main character is you\n[]>pilot: that's just a taller and fitter version of you\n[]>sidsel: Nyo idea what you're waffling about.\n[]>sidsel: I think you're projecting. You're crazy, also.\n[]>pilot: that's not how gaslighting works \n[]>pilot: you basically just admitted to it\n[]>sidsel: I didn't admit to nothing.\n[]>sidsel: You're just saying that because they have cat ears.\n[]>pilot: and your exact shade of fur \n[]>pilot: and curiously similar hair\n[]>pilot: you unironically named the file of the design \"literally_me\"\n[]>sidsel: I don't see in any way how this is related.\n[]>pilot: why did you self-insert in our dating VN\n[]>pilot: i'm not even mad, just curious why"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 2,
+						"meta.selector": {
+							"selected": false
+						}
+					}
+				],
+				"meta.address_mode_next": 0,
+				"meta.scroll_vertical": 0,
+				"meta.selected": false,
+				"next": 5.0,
+				"number": 8,
+				"page_key": "self insert",
+				"terminate": true
+			},
+			"9": {
+				"facts": {
+					"fact_data_by_name": {
+
+					},
+					"meta.visible": false
+				},
+				"lines": [
+					{
+						"address": "9.0",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia",
+								"s+z"
+							],
+							"active_actors_title": "character",
+							"content": "[]>zif: Sidsel, I'd been thinking of a new character. Our cast is missing something wilder, something more out there! \n[]>sidsel: Go on...\n[]>zif: I was thinking of an interest which might appear as human, but is in fact a sort of demonic entyty.\n[]>sidsel: ...BARS. i thought you'd be too much of a prude to do anything cool- glad to see you can improve.\n[]>sidsel: purrfect too, i was getting soo tired of drawin all this basic shit.\n[]>zif: ...I haven't seen you post anything finished in like- a few hours?\n[]>sidsel: What's that got to do with it? 4head. focus on your idea.\n[]>zif: Well, I thought it was quite self-explanatory. Instead of being a regular love interest, this character is a demon, requiring special courting and possibly a specific resource to win over! Furthermore-\n[]>sidsel: UGH, stop right there. \n[]>sidsel: i only wanna know what i need to draaaw\n[]>zif: Fine! The character has demon horns.\n[]>sidsel: ...\n[]>sidsel: is that it? you can go wilder than that, surely. what if one of the horns is broken off\n[]>zif: "
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						}
+					}
+				],
+				"meta.address_mode_next": 0,
+				"meta.scroll_vertical": 0,
+				"meta.selected": false,
+				"next": 5.0,
+				"number": 9,
+				"page_key": "Coldsteel",
+				"terminate": true
+			},
+			"10": {
+				"facts": {
+					"fact_data_by_name": {
+
+					},
+					"meta.visible": false
+				},
+				"lines": [
+					{
+						"address": "10.0",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								"pilot",
+								"neutral"
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "set_emotion(pilot, neutral)",
+							"meta.validation_status": "OK",
+							"name": "set_emotion",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "10.1",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								"zif",
+								"neutral"
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "set_emotion(zif, neutral)",
+							"meta.validation_status": "OK",
+							"name": "set_emotion",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 1,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "10.2",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								"sidsel",
+								"neutral"
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "set_emotion(sidsel, neutral)",
+							"meta.validation_status": "OK",
+							"name": "set_emotion",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 2,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "10.3",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia",
+								"s+z"
+							],
+							"active_actors_title": "character",
+							"content": "[]>zif: So... I pushed the remainder of my writings as you asked.\n[]>pilot: sweet, i'll try to implement them as soon as possible, did Sidsel-\n[]>sidsel: -MRAH, yeah, yeah I did. Sorry for barging in, I just- took a look at the time.\n[]>pilot: why, how bad could it be-\n[]>zif: As the resident time expert, allow me to enlighten you.\n[]>zif: We have about 30 minutes left.\n[]>pilot: 30 MINUTES?!\n[]>s+z: Thirty minutes.\n[]>pilot: i... i didn't even get to implement all the scenes yet...\n[]>pilot: this can't...\n[]>sidsel: Whatever, as long as we have the designs in there somehow, it'll be fine.\n[]>zif: I don't quite agree, but I must admit that stressing about it now, isn't really-\n[]>zif: Wait, what's happening-\n[]>zif: Pilot?"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 3,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "10.4",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"line_reader.args": [
+								0.2
+							],
+							"line_reader.reverse_args": [],
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "shake_camera(0.2)",
+							"meta.validation_status": "OK",
+							"name": "shake_camera",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 4,
+						"meta.selector": {
+							"selected": false
+						}
+					},
+					{
+						"address": "10.5",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"active_actors": [
+								"narrator",
+								"zif",
+								"pilot",
+								"sidsel",
+								"accendia",
+								"s+z"
+							],
+							"active_actors_title": "character",
+							"content": "[]>sidsel: holy shit, they're doing it-\n[]>sidsel: and by it, let's just say, the Visual Novel...\n[]>sidsel: You're really trying to make me work against my inherent laziness right meow."
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 5,
+						"meta.selector": {
+							"selected": false
+						}
+					}
+				],
+				"meta.address_mode_next": 0,
+				"meta.scroll_vertical": 152,
+				"meta.selected": false,
+				"next": 5.0,
+				"number": 10,
+				"page_key": "crunch",
 				"terminate": true
 			}
 		},
