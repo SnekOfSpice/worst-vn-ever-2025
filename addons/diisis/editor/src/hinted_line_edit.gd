@@ -69,7 +69,7 @@ func _on_gui_input(event: InputEvent) -> void:
 			virtual_hint_line = $ArgHint.get_hint_line_count() - 1
 	just_submitted = false
 	update_hint(text)
-	if Input.is_key_pressed(KEY_ENTER):
+	if Input.is_key_pressed(KEY_ENTER) or Input.is_key_pressed(KEY_TAB):
 		just_submitted = true
 		var text_in_hint : String = $ArgHint.get_text_in_line(virtual_hint_line)
 		if text_in_hint.is_empty():

@@ -47,6 +47,8 @@ func init() -> void:
 	await get_tree().process_frame
 	text_box.grab_focus()
 	text_box.cancel_code_completion()
+	
+	find_child("Text Actions").add_submenu_node_item("Parse Into Text", find_child("Import"))
 
 func set_use_dialog_syntax(value:bool):
 	#use_dialog_syntax = value
@@ -328,8 +330,8 @@ func _on_text_box_code_completion_requested() -> void:
 	update_tag_hint()
 
 
-func _on_text_index_pressed(index: int) -> void:
-	match index:
+func _on_text_actions_id_pressed(id: int) -> void:
+	match id:
 		0:
 			text_box.text = Pages.capitalize_sentence_beginnings(text_box.text)
 		1:
@@ -406,3 +408,17 @@ func _on_text_box_item_rect_changed() -> void:
 		scroll.custom_minimum_size.y = half_height
 		find_child("ScrollHintBottom").visible = scroll.scroll_vertical == 0
 		find_child("ScrollHintTop").visible = scroll.scroll_vertical >= scroll.get_v_scroll_bar().max_value - (scroll.size.y + 1)
+
+func set_text(text:String):
+	text_box.text = text
+
+func _on_import_id_pressed(id: int) -> void:
+	match id:
+		0: # file
+			var address = DiisisEditorUtil.get_address(self, DiisisEditorUtil.AddressDepth.Line)
+			Pages.editor.popup_ingest_file_dialog(address)
+		1: # clipboard
+			var text : String = TextToDiisis.format_text(DisplayServer.clipboard_get())
+			if text.is_empty():
+				return
+			text_box.text = text

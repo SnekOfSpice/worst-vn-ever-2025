@@ -47,11 +47,21 @@ layout_mode = 2
 [node name="MenuBar" type="MenuBar" parent="DialogSyntaxContainer/PanelContainer"]
 layout_mode = 2
 
-[node name="Format Text" type="PopupMenu" parent="DialogSyntaxContainer/PanelContainer/MenuBar"]
-item_count = 2
+[node name="Text Actions" type="PopupMenu" parent="DialogSyntaxContainer/PanelContainer/MenuBar"]
+size = Vector2i(167, 100)
+item_count = 3
 item_0/text = "Capitalize"
 item_0/id = 0
 item_1/text = "Neaten Whitespace"
+item_1/id = 1
+item_2/id = 2
+item_2/separator = true
+
+[node name="Import" type="PopupMenu" parent="DialogSyntaxContainer/PanelContainer/MenuBar/Text Actions"]
+item_count = 2
+item_0/text = "From File"
+item_0/id = 0
+item_1/text = "From Clipboard"
 item_1/id = 1
 
 [node name="HBoxContainer" type="HBoxContainer" parent="DialogSyntaxContainer"]
@@ -91,16 +101,19 @@ code_completion_enabled = true
 indent_automatic_prefixes = Array[String]([])
 
 [node name="ScrollHintTop" type="TextureRect" parent="MarginContainer"]
+visible = false
 layout_mode = 2
 size_flags_vertical = 0
 texture = SubResource("GradientTexture2D_osost")
 
 [node name="ScrollHintBottom" type="TextureRect" parent="MarginContainer"]
+visible = false
 layout_mode = 2
 size_flags_vertical = 8
 texture = SubResource("GradientTexture2D_wtkdm")
 
-[connection signal="index_pressed" from="DialogSyntaxContainer/PanelContainer/MenuBar/Format Text" to="." method="_on_text_index_pressed"]
+[connection signal="id_pressed" from="DialogSyntaxContainer/PanelContainer/MenuBar/Text Actions" to="." method="_on_text_actions_id_pressed"]
+[connection signal="id_pressed" from="DialogSyntaxContainer/PanelContainer/MenuBar/Text Actions/Import" to="." method="_on_import_id_pressed"]
 [connection signal="caret_changed" from="MarginContainer/ScrollContainer/TextBox" to="." method="_on_text_box_caret_changed"]
 [connection signal="code_completion_requested" from="MarginContainer/ScrollContainer/TextBox" to="." method="_on_text_box_code_completion_requested"]
 [connection signal="focus_entered" from="MarginContainer/ScrollContainer/TextBox" to="." method="_on_text_box_focus_entered"]
