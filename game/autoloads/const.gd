@@ -18,8 +18,8 @@ const SCREEN_SAVE := "save_screen.tscn"
 const BACKGROUND_ROOT := "res://game/backgrounds/"
 const BACKGROUND_LIDL := "lidl.png"
 const BACKGROUND_LIDL_JPG := "lidl_jpg.jpg"
-const BACKGROUND_KITCHEN := "kitchen.jpg"
-const BACKGROUND_LIVING_ROOM := "kitchen.jpg" # ph
+const BACKGROUND_KITCHEN := "kitchen.png"
+const BACKGROUND_LIVING_ROOM := "living_room.jpg"
 
 const MUSIC_ROOT := "res://game/sounds/music/"
 const MUSIC_MAIN_MENU := "32239__jbum__whitneymicrotones.ogg"
