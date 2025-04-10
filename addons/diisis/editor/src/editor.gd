@@ -889,5 +889,5 @@ func _on_fd_ingest_file_selected(path: String) -> void:
 	if ingest_context == "PAGE":
 		TextToDiisis.ingest_pages_from_file(path)
 	else:
-		var parts := DiisisEditorUtil.get_split_address(ingest_context)
+		var parts : Array = DiisisEditorUtil.get_split_address(ingest_context)
 		get_current_page().get_line(parts[1]).find_child("TextContent").set_text(TextToDiisis.format_text_from_file(path))
