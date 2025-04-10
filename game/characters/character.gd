@@ -66,6 +66,11 @@ func _ready():
 func on_actor_name_changed(actor_name:String, is_visible:bool):
 	if actor_name == character_name:
 		set_emotion("neutral")
+	if character_name in ["sidsel", "accendia"] and (visible or emotion != "invisible"):
+		if actor_name == character_name:
+			set_emotion("speaking")
+		else:
+			set_emotion("neutral")
 
 func set_x_position(idx:int, time := 0, advance_instruction_after_reposition:=false):
 	var position0 = 195
@@ -125,6 +130,8 @@ func on_dialog_line_args_passed(actor_name: String, dialog_line_args: Dictionary
 		set_emotion(emotion)
 	else:
 		set_emotion("neutral")
+
+
 
 
 func set_emotion(emotion_name:String):
