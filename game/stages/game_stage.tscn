@@ -122,22 +122,26 @@ script = ExtResource("3_x2eff")
 
 [node name="Zif" parent="Characters" instance=ExtResource("3_tdgll")]
 position = Vector2(365, 305)
+scale = Vector2(0.63, 0.63)
 character_name = "zif"
 
 [node name="Accendia" parent="Characters" instance=ExtResource("3_tdgll")]
 position = Vector2(211, 306)
+scale = Vector2(0.63, 0.63)
 character_name = "accendia"
 
 [node name="Sidsel" parent="Characters" instance=ExtResource("3_tdgll")]
 position = Vector2(530, 302)
+scale = Vector2(0.63, 0.63)
 character_name = "sidsel"
 
 [node name="Pilot" parent="Characters" instance=ExtResource("3_tdgll")]
 position = Vector2(684, 311)
+scale = Vector2(0.63, 0.63)
 character_name = "pilot"
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(576, 324)
+position = Vector2(480, 270)
 script = ExtResource("9_lbjue")
 
 [node name="CanvasLayer2" type="CanvasLayer" parent="Camera2D"]

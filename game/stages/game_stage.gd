@@ -542,10 +542,7 @@ func _on_instruction_handler_request_show_evidence(id: String) -> void:
 	var evidence := preload("uid://pwye1du2om3b").instantiate()
 	find_child("VNUIRoot").add_child(evidence)
 	evidence.set_evidence(id)
-	evidence.position = Vector2(
-		randi_range(208, 511),
-		randi_range(181, 454),
-	)
+	evidence.position = find_child("VNUIRoot").size * 0.5 - evidence.size * 0.5
 
 
 func _on_instruction_handler_rubber() -> void:
