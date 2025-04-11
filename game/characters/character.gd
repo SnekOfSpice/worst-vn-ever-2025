@@ -66,7 +66,7 @@ func _ready():
 func on_actor_name_changed(actor_name:String, is_visible:bool):
 	if actor_name == character_name:
 		set_emotion("neutral")
-	if character_name in ["sidsel", "accendia"] and (target_visibility):
+	if character_name in ["sidsel", "accendia", "pilot"] and target_visibility:
 		if actor_name == character_name:
 			set_emotion("speaking")
 		else:

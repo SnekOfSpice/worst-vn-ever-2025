@@ -136,7 +136,7 @@ scale = Vector2(0.63, 0.63)
 character_name = "sidsel"
 
 [node name="Pilot" parent="Characters" instance=ExtResource("3_tdgll")]
-position = Vector2(684, 311)
+position = Vector2(762, 311)
 scale = Vector2(0.63, 0.63)
 character_name = "pilot"
 
